@@ -10,7 +10,6 @@ function App() {
         <ul class="menu" id="menu">
           <li><a class ="active" href ="#"> Home</a></li>
           <li><a href ="#about_me">About Me</a></li>
-          <li><a href ="#education">Education</a></li>
           <li><a href ="#work_experience">Work Experience</a></li>
           <li><a href ="#projects_completed">Projects</a></li>
           <li><a href ="#contact_me"> Contact Me</a></li>    
