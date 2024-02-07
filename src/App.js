@@ -120,19 +120,25 @@ function App() {
                     
                     <div class="input-group">
                         <label for="username">Name and Surname</label>
-                        <input type="text" name="username" id="username" maxlength="30" placeholder="Please enter your full name" required></input>
+                        <input type="text" name="username" id="username" maxlength="30" required></input>
                     </div>
                     <br />
 
                     <div class="input-group">
                         <label for="email">Email address</label>
-                        <input type="email" name="email" id="email" maxlength="50" placeholder="Please enter your email address" required></input>
+                        <input type="email" name="email" id="email" maxlength="50" required></input>
+                    </div>
+                    <br />
+
+                    <div class="input-group">
+                        <label for="text">Subject line</label>
+                        <input type="email" name="email" id="email" maxlength="50" required></input>
                     </div>
                     <br />
 
                     <div class="input-group">
                         <label for="text">Message</label>
-                        <textarea id="message" name="message" maxlength="250" rows="5" placeholder="Please enter your message (max 250 characters)" required></textarea>
+                        <textarea id="message" name="message" maxlength="250" rows="5" required></textarea>
                     </div>
                     <br />
                     <br />
@@ -144,7 +150,44 @@ function App() {
             </div>
         </div>
     </div>
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
     
     
     
@@ -163,7 +206,7 @@ function App() {
     
     
     
-    
+  
   );
 }
 
