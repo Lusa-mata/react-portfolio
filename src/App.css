@@ -302,6 +302,7 @@ body {
   border: 2px solid white;
   padding: 2rem;
   color: rgba(243, 244, 246, 1);
+  
 }
     
 .form-wrapper {
@@ -312,18 +313,21 @@ body {
   
 .form {
   margin-top: 0.2rem;
+  text-align: center; /* Center-align the form content */
 }
     
 .input-group {
   margin-top: 0.25rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
+  text-align: center; /* Align the label and input content to the left within the input-group */
 }
     
 .input-group label {
   display: block;
   color: white;
   margin-bottom: 4px;
+  text-align: center;
 
 }
     
@@ -335,6 +339,7 @@ body {
   background-color: #000220;
   padding: 12px;
   color: rgba(243, 244, 246, 1);
+  margin: 0 auto; /* Center the input and textarea within their parent container */
 }
 
 .input-group textarea {
@@ -345,6 +350,7 @@ body {
   background-color: #000220;
   padding: 12px;
   color: rgba(243, 244, 246, 1);
+  margin: 0 auto; /* Center the input and textarea within their parent container */
 }
     
 .input-group input:focus {
@@ -352,7 +358,7 @@ body {
 }
    
 
-.input-group message:focus {
+.input-group textarea:focus {
   border-color: red; /*color that outlines user is in the textfield*/
 }
     
@@ -387,6 +393,12 @@ body {
   
 }
 
+
+.form-image {
+  width: 80px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  
+}
 
 
 

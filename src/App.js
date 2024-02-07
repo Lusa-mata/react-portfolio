@@ -116,6 +116,9 @@ function App() {
     <div class="center">
         <div class="form-wrapper">
             <div class="form-container">
+            <div className="form-image">
+              <img src={require('./images/contact me form pic.png')} alt="Image Description" />
+            </div>
                 <form class="form">
                     
                     <div class="input-group">
@@ -131,8 +134,8 @@ function App() {
                     <br />
 
                     <div class="input-group">
-                        <label for="text">Subject line</label>
-                        <input type="email" name="email" id="email" maxlength="50" required></input>
+                        <label for="submit">Subject line</label>
+                        <input type="text" name="subject" id="subject" maxlength="50" required></input>
                     </div>
                     <br />
 
