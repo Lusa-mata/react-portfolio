@@ -110,26 +110,60 @@ function App() {
 </div>
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+<br />
+          <br />
+    <div class="center">
+        <div class="form-wrapper">
+            <div class="form-container">
+                <form class="form">
+                    
+                    <div class="input-group">
+                        <label for="username">Name and Surname</label>
+                        <input type="text" name="username" id="username" maxlength="30" placeholder="Please enter your full name" required></input>
+                    </div>
+                    <br />
+
+                    <div class="input-group">
+                        <label for="email">Email address</label>
+                        <input type="email" name="email" id="email" maxlength="50" placeholder="Please enter your email address" required></input>
+                    </div>
+                    <br />
+
+                    <div class="input-group">
+                        <label for="text">Message</label>
+                        <textarea id="message" name="message" maxlength="250" rows="5" placeholder="Please enter your message (max 250 characters)" required></textarea>
+                    </div>
+                    <br />
+                    <br />
+
+                    <button class="submit">SUBMIT</button>
+                    <br />
+                    <input type="reset" class="clear" value="RESET"></input>
+                </form>
+            </div>
+        </div>
     </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   );
 }
 

@@ -292,3 +292,96 @@ body {
   white-space: nowrap;
   box-sizing: border-box;  
 }
+
+
+/*everything below is for the form*/
+.form-container {
+  width: 550px;
+  border-radius: 0.75rem;
+  background-color: rgba(17, 24, 39, 1);
+  padding: 2rem;
+  color: rgba(243, 244, 246, 1);
+}
+    
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;        
+}
+  
+.form {
+  margin-top: 0.2rem;
+}
+    
+.input-group {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+    
+.input-group label {
+  display: block;
+  color: rgba(156, 163, 175, 1);
+  margin-bottom: 4px;
+
+}
+    
+.input-group input {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid rgba(55, 65, 81, 1);
+  outline: 0;
+  background-color: rgba(17, 24, 39, 1);
+  padding: 12px;
+  color: rgba(243, 244, 246, 1);
+}
+
+.input-group textarea {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid rgba(55, 65, 81, 1);
+  outline: 0;
+  background-color: rgba(17, 24, 39, 1);
+  padding: 12px;
+  color: rgba(243, 244, 246, 1);
+}
+    
+.input-group input:focus {
+  border-color: rgba(167, 139, 250, 1); /*color that outlines user is in the textfield*/
+}
+   
+
+.input-group message:focus {
+  border-color: rgba(167, 139, 250, 1); /*color that outlines user is in the textfield*/
+}
+    
+.submit:hover {
+  text-decoration: underline rgba(167, 139, 250, 1);
+}
+    
+.submit {
+  display: block;
+  width: 100%;
+  background: linear-gradient(#40c9ff,rgb(111, 0, 255));
+  padding: 0.75rem;
+  text-align: center;
+  color: rgba(17, 24, 39, 1);
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.clear {
+  display: block;
+  width: 100%;
+  background: linear-gradient(#fff,#40c9ff);
+  padding: 0.75rem;
+  text-align: center;
+  color: rgba(17, 24, 39, 1);
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+  
+}
