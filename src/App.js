@@ -58,6 +58,77 @@ function App() {
           <br />
         </div>
       </div>
+
+
+
+
+
+
+      <div className="center">
+      <br />
+          <br />
+    
+      <section id="about">
+            <h1 className="heading">
+              <span className="text autoplay"> ABOUT ME </span>
+            </h1>
+          </section>
+</div>
+    
+    
+<br />
+          <br />
+    <div className="center">
+      <section id="work">
+            <h1 className="heading">
+              <span className="text autoplay"> WORK EXPERIENCE </span>
+            </h1>
+          </section>
+</div>
+    
+    
+<br />
+          <br />
+    <div className="center">
+      <section id="projects">
+            <h1 className="heading">
+              <span className="text autoplay"> PROJECTS COMPLETED </span>
+            </h1>
+          </section>
+</div>
+    
+    
+    
+<br />
+          <br />
+    <div className="center">
+      <section id="contact">
+            <h1 className="heading">
+              <span className="text autoplay"> CONTACT ME </span>
+            </h1>
+          </section>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     </div>
   );
 }
