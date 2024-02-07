@@ -114,7 +114,7 @@ function App() {
 <br />
           <br />
     <div class="center">
-        <div class="form-wrapper">
+         
             <div class="form-container">
             <div className="form-image">
               <img src={require('./images/contact me form pic.png')} alt="Image Description" />
@@ -152,7 +152,7 @@ function App() {
                 </form>
             </div>
         </div>
-    </div>
+    
 
 
 

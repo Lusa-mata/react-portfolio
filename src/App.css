@@ -296,39 +296,39 @@ body {
 
 /*everything below is for the form*/
 .form-container {
-  width: 850px;
+  width: 750px;
   border-radius: 30px;
   background-color: #000235;
   border: 2px solid white;
   padding: 2rem;
   color: rgba(243, 244, 246, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   
 }
     
-.form-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;        
-}
   
 .form {
   margin-top: 0.2rem;
-  text-align: center; /* Center-align the form content */
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
 }
     
 .input-group {
   margin-top: 0.25rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
-  text-align: center; /* Align the label and input content to the left within the input-group */
+  display: flex;
+  flex-direction: column; /* Display input and label in a column */
 }
     
 .input-group label {
   display: block;
   color: white;
   margin-bottom: 4px;
-  text-align: center;
-
+  margin-left: 100px;
 }
     
 .input-group input {
@@ -339,7 +339,7 @@ body {
   background-color: #000220;
   padding: 12px;
   color: rgba(243, 244, 246, 1);
-  margin: 0 auto; /* Center the input and textarea within their parent container */
+  margin-left: 100px;
 }
 
 .input-group textarea {
@@ -350,7 +350,7 @@ body {
   background-color: #000220;
   padding: 12px;
   color: rgba(243, 244, 246, 1);
-  margin: 0 auto; /* Center the input and textarea within their parent container */
+  margin-left: 100px;
 }
     
 .input-group input:focus {
@@ -368,7 +368,7 @@ body {
     
 .submit {
   display: block;
-  width: 100%;
+  width: 50%;
   background: linear-gradient(#40c9ff,rgb(111, 0, 255));
   padding: 0.75rem;
   text-align: center;
@@ -377,11 +377,12 @@ body {
   border-radius: 0.375rem;
   font-weight: 600;
   cursor: pointer;
+  margin-left: 100px;
 }
 
 .clear {
   display: block;
-  width: 100%;
+  width: 50%;
   background: linear-gradient(#fff,#40c9ff);
   padding: 0.75rem;
   text-align: center;
@@ -390,14 +391,14 @@ body {
   border-radius: 0.375rem;
   font-weight: 600;
   cursor: pointer;
-  
+  margin-left: 100px;
 }
 
 
 .form-image {
-  width: 80px; /* Adjust the width as needed */
+  width: 100px; /* Adjust the width as needed */
   height: auto; /* Maintain the aspect ratio */
-  
+  margin-right: 25px;
 }
 
 
