@@ -6,10 +6,10 @@ function App() {
     <div className="App">
 
       <nav className="navbar">
-        <img 
-          src="images/Me-removebg-preview.png" 
-          alt="Lusaduma" 
-        />
+        <div className="navbar-img">
+          <img src={require('./images/Me-removebg-preview.png')} alt="Lusaduma Graduation" />
+        </div>
+          
 
         <ul className="menu" id="menu">
           <li><a className="active" href="#"> Home</a></li>
@@ -141,7 +141,7 @@ function App() {
 
                     <div class="input-group">
                         <label for="text">Message</label>
-                        <textarea id="message" name="message" maxlength="250" rows="5" required></textarea>
+                        <textarea id="message" name="message" maxlength="250" rows="7" required></textarea>
                     </div>
                     <br />
                     <br />
@@ -151,8 +151,23 @@ function App() {
                     <input type="reset" class="clear" value="RESET"></input>
                 </form>
             </div>
+
+
+            
+
+
+                    
+
         </div>
+
+
+        <br />
+                    <br />
+
+      
+                    
     
+
 
 
 

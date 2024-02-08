@@ -19,9 +19,8 @@ body {
 }
 
 /* Image for navigation bar*/
-.navbar img {
-  height: 86px;
-  margin: 0;
+.navbar-img {
+  height: auto;
 }
 
 /* Style for the navigation menu*/
@@ -310,21 +309,27 @@ body {
     
   
 .form {
-  margin-top: 0.2rem;
+  margin-top: 0.1rem;
   display: flex;
   flex-direction: column;
   width: 100%; 
 }
     
+.form-image {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 25px;
+}
+
 .input-group {
-  margin-top: 0.25rem;
+  margin-top: 0.15rem;
   font-size: 0.875rem;
   line-height: 1.25rem;
   display: flex;
   flex-direction: column; /* Display input and label in a column */
 }
     
-.input-group label {
+.input-group label { 
   display: block;
   color: white;
   margin-bottom: 4px;
@@ -334,7 +339,7 @@ body {
 .input-group input {
   width: 50%;
   border-radius: 10px;
-  border: 1px solid rgba(55, 65, 81, 1);
+  border: 1px solid white;
   outline: 0;
   background-color: #000220;
   padding: 12px;
@@ -345,7 +350,7 @@ body {
 .input-group textarea {
   width: 50%;
   border-radius: 10px;
-  border: 1px solid rgba(55, 65, 81, 1);
+  border: 1px solid white;
   outline: 0;
   background-color: #000220;
   padding: 12px;
@@ -354,23 +359,20 @@ body {
 }
     
 .input-group input:focus {
-  border-color: red; /*color that outlines user is in the textfield*/
+  border-color: rgb(60, 255, 0); /*color that outlines user is in the textfield*/
 }
    
 
 .input-group textarea:focus {
-  border-color: red; /*color that outlines user is in the textfield*/
+  border-color: rgb(60, 255, 0); /*color that outlines user is in the textfield*/
 }
     
-.submit:hover {
-  text-decoration: underline rgba(167, 139, 250, 1);
-}
     
 .submit {
   display: block;
   width: 50%;
   background: linear-gradient(#40c9ff,rgb(111, 0, 255));
-  padding: 0.75rem;
+  padding: 10px 20px;
   text-align: center;
   color: rgba(17, 24, 39, 1);
   border: none;
@@ -379,6 +381,18 @@ body {
   cursor: pointer;
   margin-left: 100px;
 }
+
+
+.submit:hover {
+  background: #03f40f;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03f40f,
+              0 0 25px #03f40f,
+              0 0 50px #03f40f,
+              0 0 100px #03f40f;
+}
+
 
 .clear {
   display: block;
@@ -395,11 +409,18 @@ body {
 }
 
 
-.form-image {
-  width: 100px; /* Adjust the width as needed */
-  height: auto; /* Maintain the aspect ratio */
-  margin-right: 25px;
+.clear:hover {
+  background: #f40303;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #f40303,
+              0 0 25px #f40303,
+              0 0 50px #f40303,
+              0 0 100px #f40303;
 }
+
+
+
 
 
 
