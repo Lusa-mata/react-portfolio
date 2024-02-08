@@ -38,7 +38,7 @@ function App() {
           <br />
 
           <div className="profile-img">
-            <img src={require('./images/graduation 2.jfif')} alt="Lusaduma Graduation" />
+            <img src={require('./images/graduation 2.jfif')} alt="Lusaduma Graduation" height={"450"}/>
           </div>
           <br />
 
@@ -74,9 +74,29 @@ function App() {
             </h1>
           </section>
 </div>
-    
-    
+
 <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <br />
     <div className="center">
       <section id="work">
@@ -89,6 +109,26 @@ function App() {
     
 <br />
           <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
     <div className="center">
       <section id="projects">
             <h1 className="heading">
@@ -97,9 +137,27 @@ function App() {
           </section>
 </div>
     
-    
-    
-<br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <br />
     <div className="center">
       <section id="contact">
