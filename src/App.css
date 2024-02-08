@@ -276,8 +276,7 @@ body {
 
 /* Styling for homepage image */
 .profile-img {
-  width: 20%;
-  height: 10%;
+  border-radius: 30px;
 }
 
 
@@ -373,16 +372,17 @@ body {
   border-color: rgb(60, 255, 0); /*color that outlines user is in the textfield*/
 }
     
-    
+  
 .submit {
   display: block;
   width: 50%;
-  background: linear-gradient(#40c9ff,rgb(111, 0, 255));
+  background-color: rgb(81, 255, 0);
   padding: 10px 20px;
   text-align: center;
   color: rgba(17, 24, 39, 1);
-  border: none;
-  border-radius: 0.375rem;
+  border: 1px solid #03f40f;
+  background: linear-gradient(#fff,#40c9ff);
+  border-radius: 30px;
   font-weight: 600;
   cursor: pointer;
   margin-left: 100px;
@@ -407,11 +407,12 @@ body {
   padding: 0.75rem;
   text-align: center;
   color: rgba(17, 24, 39, 1);
-  border: none;
+  border: 1px solid #f40303;
   border-radius: 0.375rem;
   font-weight: 600;
   cursor: pointer;
   margin-left: 100px;
+  border-radius: 30px; 
 }
 
 

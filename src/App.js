@@ -38,7 +38,7 @@ function App() {
           <br />
 
           <div className="profile-img">
-            <img src={require('./images/graduation 2.jfif')} alt="Lusaduma Graduation" height={"450"}/>
+            <img src={require('./images/graduation 2.jfif')} alt="Lusaduma Graduation" height={"450"} />
           </div>
           <br />
 
