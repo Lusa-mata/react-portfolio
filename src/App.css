@@ -383,7 +383,7 @@ body {
   border: 1px solid #03f40f;
   background: linear-gradient(#fff,#40c9ff);
   border-radius: 30px;
-  font-weight: 600;
+  font-weight: 600; /*makes the text bold*/
   cursor: pointer;
   margin-left: 100px;
 }
