@@ -67,12 +67,12 @@ function App() {
         </section>
       </div>
 
-      <br />
-      <br />
+      
 
       <div className="cards-container">
         {/* Overview card and picture of me */}
         <div className="card-Overview">
+        <h2 style={{ textAlign: "center" }}>Overview</h2>
           <p style={{ textAlign: "center" }}> 
             I graduated with a diploma in software development from IIE Rosebank College <br/> 
             in 2022, where I gained a solid foundation in information technology and <br/>

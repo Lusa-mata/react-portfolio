@@ -349,7 +349,6 @@ body {
   padding: 12px;
   color: rgba(243, 244, 246, 1);
   margin-left: 100px;
-  text-align: center;
 }
 
 .input-group textarea {
@@ -440,9 +439,8 @@ body {
 width: 45%;
 height: auto;
 color: white;
-background: linear-gradient(#212121, #212121) padding-box,
-      linear-gradient(0deg, transparent 35%,rgb(111, 0, 255), #40c9ff) border-box;
-border: 6px solid transparent;
+background-color: #000235;
+border: 2px solid#fff;
 border-radius: 30px;
 margin: auto;
 margin-top: 50px;
@@ -454,9 +452,8 @@ margin-top: 50px;
 width: 45%;
 height: auto;
 color: white;
-background: linear-gradient(#212121, #212121) padding-box,
-      linear-gradient(180deg, transparent 35%,rgb(111, 0, 255),#40c9ff ) border-box;
-border: 6px solid transparent;
+background-color: #000235;
+border: 2px solid#fff;
 border-radius: 30px;
 margin: auto;
 margin-top: 50px;
