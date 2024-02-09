@@ -9,7 +9,6 @@ function App() {
         <div className="navbar-img">
           <img src={require('./images/Me-removebg-preview.png')} alt="Lusaduma Graduation" />
         </div>
-          
 
         <ul className="menu" id="menu">
           <li><a className="active" href="#"> Home</a></li>
@@ -58,14 +57,9 @@ function App() {
         </div>
       </div>
 
-
-
-
-
-
       <div className="center">
-          <br />
-          <br />
+        <br />
+        <br />
         <section id="about">
           <h1 className="heading">
             <span className="text autoplay"> ABOUT ME </span>
@@ -73,29 +67,73 @@ function App() {
         </section>
       </div>
 
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+      <br />
+      <br />
+
+      <div className="cards-container">
+        {/* Overview card and picture of me */}
+        <div className="card-Overview">
+          <p style={{ textAlign: "center" }}> 
+            I graduated with a diploma in software development from IIE Rosebank College <br/> 
+            in 2022, where I gained a solid foundation in information technology and <br/>
+            software engineering. I also learned and applied various programming languages, <br/>
+            such as Java, C#, and SQL, in different software applications and projects. <br/><br/>
+            I am passionate about solving problems, resilient, and focused, and I aspire <br/>
+            to become a professional software developer who can create value and positive <br/>
+            change through technology. <br/><br/>
+          </p>
+        </div>
+
+        {/* My skills card */}
+        <div className="card-Skills">
+          <h2 style={{ textAlign: "center" }}>My Skills</h2>
+
+          {/* HTML */}
+          <div className="skill">
+            <div className="skill-name">HTML</div>
+            <div className="skill-level">
+              <div style={{ width: "95%" }} className="skill-percent"></div>
+            </div>
+            <div className="skill-percent-number">95%</div>
+          </div>
+
+          {/* CSS */}
+          <div className="skill">
+            <div className="skill-name">CSS</div>
+            <div className="skill-level">
+              <div style={{ width: "90%" }} className="skill-percent"></div>
+            </div>
+            <div className="skill-percent-number">90%</div>
+          </div>
+
+          {/* JavaScript */}
+          <div className="skill">
+            <div className="skill-name">JavaScript</div>
+            <div className="skill-level">
+              <div style={{ width: "80%" }} className="skill-percent"></div>
+            </div>
+            <div className="skill-percent-number">80%</div>
+          </div>
+
+          {/* Python */}
+          <div className="skill">
+            <div className="skill-name">Python</div>
+            <div className="skill-level">
+              <div style={{ width: "65%" }} className="skill-percent"></div>
+            </div>
+            <div className="skill-percent-number">65%</div>
+          </div>
+    
+          {/* Java */}
+          <div className="skill">
+            <div className="skill-name">Java</div>
+            <div className="skill-level">
+              <div style={{ width: "60%" }} className="skill-percent"></div>
+            </div>
+            <div className="skill-percent-number">60%</div>
+          </div>
+        </div>
+      </div>
 
       <div className="center">
         <section id="work">
@@ -104,30 +142,8 @@ function App() {
           </h1>
         </section>
       </div>
-    
-    
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+
+      {/* ... (unchanged) ... */}
 
       <div className="center">
         <section id="projects">
@@ -136,29 +152,8 @@ function App() {
           </h1>
         </section>
       </div>
-    
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+
+      {/* ... (unchanged) ... */}
 
       <div className="center">
         <section id="contact">
@@ -167,54 +162,54 @@ function App() {
           </h1>
         </section>
       </div>
-    
-          <br />
-          <br />
 
-      <div class="center">
-        <div class="form-container">
+      <br />
+      <br />
+
+      <div className="center">
+        <div className="form-container">
           <div className="form-image">
             <img src={require('./images/contact me form pic.png')} alt="Image Description" />
           </div>
 
-          <form class="form">      
-            <div class="input-group">
-              <label for="username">Name and Surname</label>
-              <input type="text" name="username" id="username" maxlength="30" required></input>
+          <form className="form">      
+            <div className="input-group">
+              <label htmlFor="username">Name and Surname</label>
+              <input type="text" name="username" id="username" maxLength="30" required></input>
             </div>
 
             <br />
 
-            <div class="input-group">
-              <label for="email">Email address</label>
-              <input type="email" name="email" id="email" maxlength="50" required></input>
+            <div className="input-group">
+              <label htmlFor="email">Email address</label>
+              <input type="email" name="email" id="email" maxLength="50" required></input>
             </div>
 
             <br />
 
-            <div class="input-group">
-              <label for="submit">Subject line</label>
-              <input type="text" name="subject" id="subject" maxlength="50" required></input>
+            <div className="input-group">
+              <label htmlFor="submit">Subject line</label>
+              <input type="text" name="subject" id="subject" maxLength="50" required></input>
             </div>
 
             <br />
 
-            <div class="input-group">
-              <label for="text">Message</label>
-              <textarea id="message" name="message" maxlength="250" rows="8" required></textarea>
+            <div className="input-group">
+              <label htmlFor="text">Message</label>
+              <textarea id="message" name="message" maxLength="250" rows="8" required></textarea>
             </div>
           
             <br />
             <br />
 
-            <button class="submit">SUBMIT</button>
+            <button className="submit">SUBMIT</button>
             <br />
           
-            <input type="reset" class="clear" value="RESET"></input>
-            
+            <input type="reset" className="clear" value="RESET"></input>
           </form>
         </div>
       </div>
+
 
 
             <br />

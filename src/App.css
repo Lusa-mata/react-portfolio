@@ -427,6 +427,71 @@ body {
 
 
 
+/* Container for cards */
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+/*card for overview*/
+.card-Overview {
+width: 45%;
+height: auto;
+color: white;
+background: linear-gradient(#212121, #212121) padding-box,
+      linear-gradient(0deg, transparent 35%,rgb(111, 0, 255), #40c9ff) border-box;
+border: 6px solid transparent;
+border-radius: 30px;
+margin: auto;
+margin-top: 50px;
+}
+
+
+/*card for skills*/
+.card-Skills {
+width: 45%;
+height: auto;
+color: white;
+background: linear-gradient(#212121, #212121) padding-box,
+      linear-gradient(180deg, transparent 35%,rgb(111, 0, 255),#40c9ff ) border-box;
+border: 6px solid transparent;
+border-radius: 30px;
+margin: auto;
+margin-top: 50px;
+}
+
+.skill {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.skill-name {
+width: 120px;
+font-size: 16px;
+margin-left: 10px;
+}
+
+.skill-level {
+width: 100%;
+height: 10px;
+background-color: #eee;
+border-radius: 10px;
+overflow: hidden;
+margin-left: 20px;
+}
+
+.skill-percent {
+background: linear-gradient(#40c9ff,rgb(111, 0, 255)) ;
+height: 100%;
+}
+
+.skill-percent-number {
+margin-left: 20px;
+font-size: 16px;
+}  
 
 
 
