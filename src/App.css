@@ -342,7 +342,7 @@ body {
 }
     
 .input-group input {
-  width: 50%;
+  width: 42%;
   border-radius: 10px;
   border: 1px solid white;
   outline: 0;
@@ -353,7 +353,7 @@ body {
 }
 
 .input-group textarea {
-  width: 50%;
+  width: 42%;
   border-radius: 10px;
   border: 1px solid white;
   outline: 0;

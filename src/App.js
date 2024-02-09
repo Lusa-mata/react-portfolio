@@ -199,7 +199,7 @@ function App() {
 
                     <div class="input-group">
                         <label for="text">Message</label>
-                        <textarea id="message" name="message" maxlength="250" rows="7" required></textarea>
+                        <textarea id="message" name="message" maxlength="250" rows="8" required></textarea>
                     </div>
                     <br />
                     <br />
