@@ -345,18 +345,17 @@ body {
   width: 42%;
   border-radius: 10px;
   border: 1px solid white;
-  outline: 0;
   background-color: #000220;
   padding: 12px;
   color: rgba(243, 244, 246, 1);
   margin-left: 100px;
+  text-align: center;
 }
 
 .input-group textarea {
   width: 42%;
   border-radius: 10px;
   border: 1px solid white;
-  outline: 0;
   background-color: #000220;
   padding: 12px;
   color: rgba(243, 244, 246, 1);
