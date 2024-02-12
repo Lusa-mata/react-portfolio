@@ -162,8 +162,10 @@ function App() {
         <div className="card-project1">
           <h2 style={{ textAlign: "center" }}>Bakery website</h2>
           <br></br>
-            <img src = {require('.images/ikhekhe.jpg')} />
           
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <img src={require('./images/ikhekhe.jpg')} alt="Cake image" height={"450"} style={{ justifyContent: "center"}} />
+          </div>
           
           
 
@@ -178,7 +180,7 @@ function App() {
         <div className="card-project3">
           <h2 style={{ textAlign: "center" }}>Third project</h2>
         </div>
-        
+
       </div>
 
 
