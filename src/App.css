@@ -505,29 +505,34 @@ font-size: 16px;
   border: 2px solid#fff;
   border-radius: 30px;
   margin: auto;
+}
 
-  }
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100;
+}
 
-  .card-project2 {
-    width: 30%;
-    height: auto;
-    color: white;
-    background-color: #000235;
-    border: 2px solid#fff;
-    border-radius: 30px;
-    margin: auto;
 
-    }
+.card-project2 {
+  width: 30%;
+  height: auto;
+  color: white;
+  background-color: #000235;
+  border: 2px solid#fff;
+  border-radius: 30px;
+  margin: auto;
+}
 
-    .card-project3 {
-      width: 30%;
-      height: auto;
-      color: white;
-      background-color: #000235;
-      border: 2px solid#fff;
-      border-radius: 30px;
-      margin: auto;
-
-      }
+.card-project3 {
+  width: 30%;
+  height: auto;
+  color: white;
+  background-color: #000235;
+  border: 2px solid#fff;
+  border-radius: 30px;
+  margin: auto;
+}
 
 

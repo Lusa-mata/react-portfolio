@@ -136,6 +136,9 @@ function App() {
         </div>
       </div>
 
+
+
+
       <div className="center">
         <section id="work">
           <h1 className="heading">
@@ -143,6 +146,7 @@ function App() {
           </h1>
         </section>
       </div>
+
 
 
       <div className="center">
@@ -156,7 +160,13 @@ function App() {
       <div className="cards-container">
         {/* Project 1 */}
         <div className="card-project1">
-          <h2 style={{ textAlign: "center" }}>First project</h2>
+          <h2 style={{ textAlign: "center" }}>Bakery website</h2>
+          <br></br>
+            <img src = {require('.images/ikhekhe.jpg')} />
+          
+          
+          
+
         </div>
       
         {/* My skills card */}
@@ -168,6 +178,7 @@ function App() {
         <div className="card-project3">
           <h2 style={{ textAlign: "center" }}>Third project</h2>
         </div>
+        
       </div>
 
 
