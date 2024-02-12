@@ -164,21 +164,27 @@ function App() {
           <br></br>
           
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={require('./images/ikhekhe.jpg')} alt="Cake image" height={"450"} style={{ justifyContent: "center"}} />
+          <img src={require('./images/ikhekhe.jpg')} alt="Cake image" height={"450"} />
           </div>
           
           <button className="download-project-1">Download project</button>
           
         </div>
       
+
         {/* Project 2 */}
         <div className="card-project2">
           <h2 style={{ textAlign: "center" }}>Online portfolio</h2>
           <br></br>
           
-          <div style={{ display: 'flex', justifyContent: 'center' }}></div>
-          
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <img src={require('./images/old portfolio.png')} alt="Cake image" height={"450"} />
+          </div>
+
+          <button className="view-project-2">View Demo</button>
+          <button className="download-project-2">Download project</button>
         </div>
+
 
         {/* Project 3 */}
         <div className="card-project3">
