@@ -178,7 +178,7 @@ function App() {
           <br></br>
           
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={require('./images/old portfolio.png')} alt="Cake image" height={"450"} />
+          <img src={require('./images/old portfolio.png')} alt="old portfolio" height={"450"} />
           </div>
 
           <button className="view-project-2">View Demo</button>
@@ -189,9 +189,15 @@ function App() {
         {/* Project 3 */}
         <div className="card-project3">
           <h2 style={{ textAlign: "center" }}>Checkers game</h2>
-        </div>
+        <br></br>
+          
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <img src={require('./images/checkers image.png')} alt="checkers image" height={"450"} />
+          </div>
 
+          <button className="download-project-3">Download project</button>
       </div>
+    </div>
 
 
 
