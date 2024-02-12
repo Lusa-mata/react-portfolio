@@ -171,14 +171,18 @@ function App() {
           
         </div>
       
-        {/* My skills card */}
+        {/* Project 2 */}
         <div className="card-project2">
-          <h2 style={{ textAlign: "center" }}>Second Project</h2>
+          <h2 style={{ textAlign: "center" }}>Online portfolio</h2>
+          <br></br>
+          
+          <div style={{ display: 'flex', justifyContent: 'center' }}></div>
+          
         </div>
 
-        {/* My skills card */}
+        {/* Project 3 */}
         <div className="card-project3">
-          <h2 style={{ textAlign: "center" }}>Third project</h2>
+          <h2 style={{ textAlign: "center" }}>Checkers game</h2>
         </div>
 
       </div>
