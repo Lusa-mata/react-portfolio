@@ -144,7 +144,6 @@ function App() {
         </section>
       </div>
 
-      {/* ... (unchanged) ... */}
 
       <div className="center">
         <section id="projects">
@@ -154,7 +153,24 @@ function App() {
         </section>
       </div>
 
-      {/* ... (unchanged) ... */}
+      <div className="cards-container">
+        {/* Project 1 */}
+        <div className="card-project1">
+          <h2 style={{ textAlign: "center" }}>First project</h2>
+        </div>
+      
+        {/* My skills card */}
+        <div className="card-project2">
+          <h2 style={{ textAlign: "center" }}>Second Project</h2>
+        </div>
+
+        {/* My skills card */}
+        <div className="card-project3">
+          <h2 style={{ textAlign: "center" }}>Third project</h2>
+        </div>
+      </div>
+
+
 
       <div className="center">
         <section id="contact">
