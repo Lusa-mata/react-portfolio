@@ -641,4 +641,12 @@ background: #03f40f;
               0 0 100px #03f40f;
 }
 
-
+.card-more {
+  width: 45%;
+  height: 100px;
+  color: white;
+  background-color: #000235;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  margin-top: 40px;
+}

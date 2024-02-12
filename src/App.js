@@ -73,7 +73,7 @@ function App() {
         {/* Overview card and picture of me */}
         <div className="card-Overview">
         <h2 style={{ textAlign: "center" }}>Overview</h2>
-          <img src={require('./images/Graduation_picture-removebg-preview.png')} />
+          <img src={require('./images/Graduation_picture-removebg-preview.png')} height={"450"} />
           <p style={{ textAlign: "center" }}> 
             I graduated with a diploma in software development from IIE Rosebank College <br/> 
             in 2022, where I gained a solid foundation in information technology and <br/>
@@ -197,6 +197,13 @@ function App() {
 
           <button className="download-project-3">Download project</button>
       </div>
+
+      
+    </div>
+
+    {/* More projects */}
+    <div className="card-more">
+      VIEW MORE PROJECTS ON GITHUB
     </div>
 
 
