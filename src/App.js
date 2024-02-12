@@ -167,8 +167,8 @@ function App() {
           <img src={require('./images/ikhekhe.jpg')} alt="Cake image" height={"450"} style={{ justifyContent: "center"}} />
           </div>
           
+          <button className="download-project-1">Download project</button>
           
-
         </div>
       
         {/* My skills card */}
