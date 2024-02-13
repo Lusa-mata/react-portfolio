@@ -267,18 +267,15 @@ function App() {
 
             <br />
             <br />
-
-      {/*book section*/}
-      <div class="book">
-        <p>Description of the project goes here...</p>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div class="book">
+          <p>Hello</p>
         
-
-        <div class="cover">
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={require('./images/ikhekhe.jpg')} alt="checkers image" height={"300"} width={"220"}/>
+          <div class="cover">
+            <img src={require('./images/ikhekhe.jpg')} alt="Cake image" height={"450"} />
           </div>
-        </div>
-      </div>   
+        </div> 
+      </div>
 
 
 
@@ -286,29 +283,7 @@ function App() {
 
 
 
-
-      <div className="cards-container">
-        {/* Project 1 */}
-        <div className="card-project1">
-          <h2 style={{ textAlign: "center" }}>Bakery website</h2>
-          <br></br>
-          
-          <div class="book">
-            <p>Description of the project goes here...</p>
-            
-
-            {/*cover section*/}
-            <div className="cover">
-              <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <img src={require('./images/ikhekhe.jpg')} alt="Cake image" height={"300"} width={"220"} />
-            </div>
-          </div>
-          </div>
-
-          <button className="download-project-1">Download project</button>
-          
-        </div>
-      </div>   
+         
 
       
                     
