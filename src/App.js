@@ -197,17 +197,17 @@ function App() {
 
           <button className="download-project-3">Download project</button>
       </div>
-
-      
     </div>
 
+    <div className="center">
     {/* More projects */}
-    <div className="card-more">
-      VIEW MORE PROJECTS ON GITHUB
+      <div className="card-more">
+        VIEW MORE PROJECTS ON GITHUB
+      </div>
     </div>
 
 
-
+      {/*contact me section*/}
       <div className="center">
         <section id="contact">
           <h1 className="heading">
@@ -267,6 +267,18 @@ function App() {
 
             <br />
             <br />
+
+      {/*book section*/}
+      <div class="book">
+        <p>Hello</p>
+        
+
+        <div class="cover">
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <img src={require('./images/ikhekhe.jpg')} alt="checkers image" height={"300"} width={"220"} />
+          </div>
+        </div>
+      </div>      
 
       
                     
