@@ -665,13 +665,12 @@ background: #03f40f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  
-  margin-left: 20px;
+
 }
 
 .cover {
   position: absolute;
-  width: 220px;
+  width: 300px;
   height: 450px;
   cursor: pointer;
   -webkit-transition: all 0.5s;
@@ -688,8 +687,21 @@ background: #03f40f;
 .book:hover .cover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  -webkit-transform: rotatey(-85deg);
-  -ms-transform: rotatey(-85deg);
-  transform: rotatey(-85deg);
+  -webkit-transform: rotatey(-83deg);
+  -ms-transform: rotatey(-83deg);
+  transform: rotatey(-83deg);
+}
+
+p {
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: center;
+  justify-content:center ;
+}
+
+/* Add or update this in your CSS file */
+.book .cover img {
+  width: 300px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
 }
 

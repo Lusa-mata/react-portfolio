@@ -164,8 +164,14 @@ function App() {
           <br></br>
           
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={require('./images/ikhekhe.jpg')} alt="Cake image" height={"450"} />
+        <div class="book">
+          <p>Description of project 1</p>
+        
+          <div class="cover">
+            <img src={require('./images/ikhekhe.jpg')} alt="Cake image" />
           </div>
+        </div> 
+      </div>
           
           <button className="download-project-1">Download project</button>
           
@@ -267,15 +273,7 @@ function App() {
 
             <br />
             <br />
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <div class="book">
-          <p>Hello</p>
-        
-          <div class="cover">
-            <img src={require('./images/ikhekhe.jpg')} alt="Cake image" height={"450"} />
-          </div>
-        </div> 
-      </div>
+      
 
 
 
