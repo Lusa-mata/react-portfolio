@@ -694,7 +694,11 @@ background: #03f40f;
 .book:hover .cover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  -webkit-transform: rotatey(-80deg);
-  -ms-transform: rotatey(-80deg);
-  transform: rotatey(-80deg);
+  -webkit-transform: rotatey(-85deg);
+  -ms-transform: rotatey(-85deg);
+  transform: rotatey(-85deg);
+}
+
+p {
+  margin-left: 15px;
 }
