@@ -164,14 +164,14 @@ function App() {
           <br></br>
           
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <div class="book">
-          <p>Description of project 1</p>
+            <div class="book">
+              <p>Description of project 1 goes here</p>
         
-          <div class="cover">
-            <img src={require('./images/ikhekhe.jpg')} alt="Cake image" />
+              <div class="cover">
+                <img src={require('./images/ikhekhe.jpg')} alt="Cake image" />
+              </div>
+            </div> 
           </div>
-        </div> 
-      </div>
           
           <button className="download-project-1">Download project</button>
           
@@ -184,7 +184,13 @@ function App() {
           <br></br>
           
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={require('./images/old portfolio.png')} alt="old portfolio" height={"450"} />
+            <div class="book">
+              <p>Description of project 2 goes here</p>
+        
+              <div class="cover">
+                <img src={require('./images/old portfolio.png')} alt="Cake image" />
+              </div>
+            </div> 
           </div>
 
           <button className="view-project-2">View Demo</button>
@@ -195,11 +201,17 @@ function App() {
         {/* Project 3 */}
         <div className="card-project3">
           <h2 style={{ textAlign: "center" }}>Checkers game</h2>
-        <br></br>
+          <br></br>
           
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={require('./images/checkers image.png')} alt="checkers image" height={"450"} />
-          </div>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div class="book">
+              <p>Description of project 3 goes here</p>
+        
+              <div class="cover">
+                <img src={require('./images/checkers image.png')} alt="Cake image" />
+              </div>
+            </div> 
+        </div>
 
           <button className="download-project-3">Download project</button>
       </div>
