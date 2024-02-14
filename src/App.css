@@ -336,7 +336,7 @@ body {
     
 .input-group label { 
   display: block;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-bottom: 4px;
   margin-left: 100px;
 }
@@ -434,16 +434,21 @@ body {
   margin-top: 50px;
 }
 
-/*card for overview*/
+/* card for overview */
 .card-Overview {
-width: 45%;
-height: auto;
-color: white;
-background-color: #000235;
-border: 2px solid#fff;
-border-radius: 30px;
-margin: auto;
-margin-top: 50px;
+  display: flex;
+  width: 45%;
+  color: white;
+  background-color: #000235;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.card-Overview img {
+  width: 250px;
+  height: 550px;
 }
 
 
@@ -758,3 +763,43 @@ p {
   filter: blur(10px);
   transform: scale(0.9, 0.9);
 }*/
+
+
+#checkbox {
+  display: none;
+}
+
+.switch {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(99, 99, 99);
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(126, 126, 126);
+  box-shadow: 0px 0px 3px rgb(2, 2, 2) inset;
+}
+.switch svg {
+  width: 1.2em;
+}
+.switch svg path {
+  fill: rgb(48, 48, 48);
+}
+#checkbox:checked + .switch {
+  box-shadow: 0px 0px 1px rgb(151, 243, 255) inset,
+    0px 0px 2px rgb(151, 243, 255) inset, 0px 0px 10px rgb(151, 243, 255) inset,
+    0px 0px 40px rgb(151, 243, 255), 0px 0px 100px rgb(151, 243, 255),
+    0px 0px 5px rgb(151, 243, 255);
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(146, 180, 184);
+}
+#checkbox:checked + .switch svg {
+  filter: drop-shadow(0px 0px 5px rgb(151, 243, 255));
+}
+#checkbox:checked + .switch svg path {
+  fill: rgb(255, 255, 255);
+}
