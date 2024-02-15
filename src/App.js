@@ -379,7 +379,7 @@ function App() {
     </div>
   </div>*/}
 
-
+{/*Motivity*/}
 <div className="container">
   <div className="line-and-logos">
       <img src={require('./images/Motivity.png')} alt="Image Description" className='icon' />
@@ -404,6 +404,7 @@ function App() {
   </div>
 </div>
 
+{/*CAPACITI*/}
 <div className="container">
   <div className="line-and-logos">
       <img src={require('./images/UVU.png')} alt="Image Description" className='icon' />
@@ -428,6 +429,7 @@ function App() {
   </div>
 </div>
 
+{/*YOUNGLINGS*/}
 <div className="container">
   <div className="line-and-logos">
       <img src={require('./images/ABSA.png')} alt="Image Description" className='icon' />
@@ -449,6 +451,7 @@ function App() {
       
   </div>
 </div>  
+
 
 
 
