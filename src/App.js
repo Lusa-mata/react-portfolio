@@ -382,7 +382,7 @@ function App() {
 
 <div className="container">
   <div className="line-and-logos">
-      <img src={require('./images/contact me form pic.png')} alt="Image Description" className='icon' />
+      <img src={require('./images/Motivity.png')} alt="Image Description" className='icon' />
     <div className="vertical-line"></div>
   </div>  
   <div className="card-container">
@@ -406,7 +406,7 @@ function App() {
 
 <div className="container">
   <div className="line-and-logos">
-      <img src={require('./images/contact me form pic.png')} alt="Image Description" className='icon' />
+      <img src={require('./images/UVU.png')} alt="Image Description" className='icon' />
     <div className="vertical-line"></div>
   </div>
   <div className="card-container">
@@ -430,7 +430,7 @@ function App() {
 
 <div className="container">
   <div className="line-and-logos">
-      <img src={require('./images/contact me form pic.png')} alt="Image Description" className='icon' />
+      <img src={require('./images/ABSA.png')} alt="Image Description" className='icon' />
     <div className="vertical-line"></div>
   </div>
   <div className="card-container">
