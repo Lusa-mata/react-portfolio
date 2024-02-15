@@ -384,9 +384,22 @@ function App() {
   <div className="line-and-logos">
       <img src={require('./images/contact me form pic.png')} alt="Image Description" className='icon' />
     <div className="vertical-line"></div>
-  </div>
+  </div>  
   <div className="card-container">
-  <div className="card-experience"></div>
+  <div className="card-experience">
+
+  <p> 
+            <b>Company:</b> Motivity ICT South Africa 
+            <b>Location:</b> Century City, Cape Town, South Africa 
+            <b>Position:</b> IT Intern 
+            <b>Job type:</b> Internship 
+            <b>Duration:</b> 5 May 2023 - 14 July 2023 (2 months)
+            <b>Job description:</b>
+            Rotated across different departments to get exposure and learn on the job, 
+            performed duties at the designated workstation and client property. Worked with back
+            office adminstrators and did small tasks for managers such as writing formulas on Microsoft Excel for organization of data.
+  </p>
+  </div>
      
   </div>
 </div>
@@ -397,7 +410,20 @@ function App() {
     <div className="vertical-line"></div>
   </div>
   <div className="card-container">
-  <div className="card-experience"></div>
+  <div className="card-experience">
+
+  <p> 
+            <b>Company:</b> Motivity ICT South Africa 
+            <b>Location:</b> Century City, Cape Town, South Africa 
+            <b>Position:</b> IT Intern 
+            <b>Job type:</b> Internship 
+            <b>Duration:</b> 5 May 2023 - 14 July 2023 (2 months)
+            <b>Job description:</b>
+            Rotated across different departments to get exposure and learn on the job, 
+            performed duties at the designated workstation and client property. Worked with back
+            office adminstrators and did small tasks for managers such as writing formulas on Microsoft Excel for organization of data.
+  </p>
+  </div>
       
   </div>
 </div>
@@ -408,7 +434,20 @@ function App() {
     <div className="vertical-line"></div>
   </div>
   <div className="card-container">
-  <div className="card-experience"></div>
+  <div className="card-experience">
+
+  <p> 
+            <b>Company:</b> Motivity ICT South Africa 
+            <b>Location:</b> Century City, Cape Town, South Africa 
+            <b>Position:</b> IT Intern 
+            <b>Job type:</b> Internship 
+            <b>Duration:</b> 5 May 2023 - 14 July 2023 (2 months)
+            <b>Job description:</b>
+            Rotated across different departments to get exposure and learn on the job, 
+            performed duties at the designated workstation and client property. Worked with back
+            office adminstrators and did small tasks for managers such as writing formulas on Microsoft Excel for organization of data.
+  </p>
+  </div>
       
   </div>
 </div>  
