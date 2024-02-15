@@ -803,7 +803,7 @@ p {
 
 .card-experience {
   width: 700px;
-  height: 450px;
+  height: auto;
   color: white;
   background-color: #000235;
   border: 2px solid #ffffff;

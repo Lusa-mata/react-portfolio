@@ -389,12 +389,12 @@ function App() {
   <div className="card-experience">
 
   <p> 
-            <b>Company:</b> Motivity ICT South Africa 
-            <b>Location:</b> Century City, Cape Town, South Africa 
-            <b>Position:</b> IT Intern 
-            <b>Job type:</b> Internship 
-            <b>Duration:</b> 5 May 2023 - 14 July 2023 (2 months)
-            <b>Job description:</b>
+            <b>Company:</b> Motivity ICT South Africa <br></br>
+            <b>Location:</b> Century City, Cape Town, South Africa <br></br> 
+            <b>Position:</b> IT Intern <br></br>
+            <b>Job type:</b> Internship <br></br>
+            <b>Duration:</b> 5 May 2023 - 14 July 2023 (2 months) <br></br><br></br>
+            <b>Job description:</b><br></br>
             Rotated across different departments to get exposure and learn on the job, 
             performed duties at the designated workstation and client property. Worked with back
             office adminstrators and did small tasks for managers such as writing formulas on Microsoft Excel for organization of data.
@@ -413,15 +413,15 @@ function App() {
   <div className="card-experience">
 
   <p> 
-            <b>Company:</b> Motivity ICT South Africa 
-            <b>Location:</b> Century City, Cape Town, South Africa 
-            <b>Position:</b> IT Intern 
-            <b>Job type:</b> Internship 
-            <b>Duration:</b> 5 May 2023 - 14 July 2023 (2 months)
-            <b>Job description:</b>
-            Rotated across different departments to get exposure and learn on the job, 
-            performed duties at the designated workstation and client property. Worked with back
-            office adminstrators and did small tasks for managers such as writing formulas on Microsoft Excel for organization of data.
+  <b>Company:</b> CapaCiTi Tech Career Accelerator (UVU Africa) <br></br>
+            <b>Location:</b> Salt River, Cape Town, South Africa <br></br>
+            <b>Position:</b> Software Developer Intern <br></br>
+            <b>Job type:</b> Internship <br></br>
+            <b>Duration:</b> 17 July 2023 - 19 January 2024 (6 months) <br></br><br></br>
+            <b>Job description:</b> <br></br>
+            A 6 month programme spent on campus that was designed to grow and upskill our skills of a software developer intern. Worked
+            on various projects which consisted of the following languages: HTML, CSS, javascript, Java, Python, NodeJS. Having worked on these projects,
+            we were exposed to teamwork, time management skills and what it means to work on a project as a team while having a different team leader within the group.
   </p>
   </div>
       
@@ -437,15 +437,13 @@ function App() {
   <div className="card-experience">
 
   <p> 
-            <b>Company:</b> Motivity ICT South Africa 
-            <b>Location:</b> Century City, Cape Town, South Africa 
-            <b>Position:</b> IT Intern 
-            <b>Job type:</b> Internship 
-            <b>Duration:</b> 5 May 2023 - 14 July 2023 (2 months)
-            <b>Job description:</b>
-            Rotated across different departments to get exposure and learn on the job, 
-            performed duties at the designated workstation and client property. Worked with back
-            office adminstrators and did small tasks for managers such as writing formulas on Microsoft Excel for organization of data.
+  <b>Company:</b> Younglings Africa (ABSA) <br></br>
+            <b>Location:</b> Cape Town, South Africa <br></br>
+            <b>Position:</b> Junior Software Developer <br></br>
+            <b>Job type:</b> Internship <br></br>
+            <b>Duration:</b> 22 January 2024 - Present <br></br><br></br>
+            <b>Job description:</b> <br></br>
+            12 months spent at Younglings Africa where we will be exposed to industry best practices, real world applications and soft skills.
   </p>
   </div>
       
