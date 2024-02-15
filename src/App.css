@@ -767,26 +767,8 @@ p {
 }*/
 
 
-.card-motivity {
-  width: 700px;
-  height: 100px;
-  color: white;
-  background-color: #000235;
-  border: 2px solid #ffffff;
-  border-radius: 30px;
-  margin-top: 40px;
-}
-
-.card-capaciti {
-  width: 700px;
-  height: 100px;
-  color: white;
-  background-color: #000235;
-  border: 2px solid #ffffff;
-  border-radius: 30px;
-  margin-top: 40px;
-}
-
+.card-motivity,
+.card-capaciti,
 .card-younglings {
   width: 700px;
   height: 100px;
