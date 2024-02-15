@@ -426,7 +426,7 @@ body {
 
 
 
-/* Container for cards */
+/* Container for cards for about me */
 .cards-container {
   display: flex;
   flex-direction: row;
@@ -446,9 +446,10 @@ body {
   margin-top: 50px;
 }
 
+/* card for image in overview */
 .card-Overview img {
   width: 250px;
-  height: 550px;
+  height: 500px;
 }
 
 

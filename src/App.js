@@ -72,15 +72,15 @@ function App() {
       <div className="cards-container">
         {/* Overview card and picture of me */}
         <div className="card-Overview">
-        <h2 style={{ textAlign: "center" }}>Overview</h2>
+        {/*<h2 style={{ textAlign: "center" }}>Overview</h2>*/}
         <br />
         <br />
           <img src={require('./images/Graduation_picture-removebg-preview.png')} />
           <p> 
             I graduated with a diploma in software development from IIE Rosebank College 
             in 2022, where I gained a solid foundation in information technology and 
-            software engineering. I also learned and applied various programming languages, 
-            such as Java, C#, and SQL, in different software applications and projects. 
+            software engineering. <br></br><br></br>I also learned and applied various programming languages, 
+            such as Java, C#, and SQL, in different software applications and projects. <br></br><br></br> 
             I am passionate about solving problems, resilient, and focused, and I aspire 
             to become a professional software developer who can create value and positive 
             change through technology. 
