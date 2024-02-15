@@ -161,7 +161,7 @@ function App() {
 
 
 
-
+      {/*work experience section*/}
       <div className="center">
         <section id="work">
           <h1 className="heading">
@@ -170,6 +170,17 @@ function App() {
         </section>
       </div>
 
+      
+      {/* Motivity */}
+      <div className="card-motivity">
+
+      </div>
+
+      <div className="card-capaciti">
+
+      </div>
+      
+      <div className="card-younglings"></div>
 
 
       <div className="center">
