@@ -118,9 +118,27 @@ function App() {
             <div className="skill-percent-number">80%</div>
           </div>
 
+          {/* SQL Database */}
+          <div className="skill">
+            <div className="skill-name">SQL</div>
+            <div className="skill-level">
+              <div style={{ width: "75%" }} className="skill-percent"></div>
+            </div>
+            <div className="skill-percent-number">75%</div>
+          </div>
+
           {/* Python */}
           <div className="skill">
             <div className="skill-name">Python</div>
+            <div className="skill-level">
+              <div style={{ width: "65%" }} className="skill-percent"></div>
+            </div>
+            <div className="skill-percent-number">65%</div>
+          </div>
+
+          {/* Programming */}
+          <div className="skill">
+            <div className="skill-name">Programming</div>
             <div className="skill-level">
               <div style={{ width: "65%" }} className="skill-percent"></div>
             </div>
