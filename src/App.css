@@ -767,14 +767,47 @@ p {
 }*/
 
 
-.card-motivity,
-.card-capaciti,
-.card-younglings {
+
+
+
+
+
+.container {
+  display: flex;
+  margin-left: 20px; /* Adjust this value to control the space between the line and cards */
+}
+
+.line-and-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  margin-right: 5px; /* Adjust the margin to control the space between the icon and the vertical line */
+}
+
+.vertical-line {
+  width: 2px;
+  height: 200px; /* Adjust this value to match the total height of the cards and margins */
+  background-color: white;
+}
+
+.card-container {
+  display: flex;
   width: 700px;
+  flex-direction: column;
+  margin-left: 20px; /* Adjust this value to control the space between the line and cards */
+}
+
+.card-experience {
+  width: 45%;
   height: 100px;
   color: white;
   background-color: #000235;
   border: 2px solid #ffffff;
   border-radius: 30px;
-  margin-top: 40px;
+  margin-bottom: 20px;
 }
