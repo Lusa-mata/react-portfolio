@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
 
+      {/*NAVIGATION BAR section*/}
       <nav className="navbar">
         <div className="navbar-img">
           <img src={require('./images/Me-removebg-preview.png')} alt="Lusaduma Graduation" />
@@ -25,6 +26,8 @@ function App() {
         </div>
       </nav>
 
+
+      {/*HOMEPAGE section*/}
       <div className="center">
         <div className="home-container">
           <section id="lusaduma-mata">
@@ -57,6 +60,8 @@ function App() {
         </div>
       </div>
 
+
+      {/*ABOUT ME section*/}
       <div className="center">
         <br />
         <br />
@@ -70,7 +75,7 @@ function App() {
       
 
       <div className="cards-container">
-        {/* Overview card and picture of me */}
+        {/* Overview and picture of me card */}
         <div className="card-Overview">
         <br />
         <br />
@@ -154,14 +159,10 @@ function App() {
           </div>
         </div>
       </div>
-
       <br></br>
 
       
-
-
-
-      {/*work experience section*/}
+      {/*WORK EXPERIENCE section*/}
       <div className="center">
         <section id="work">
           <h1 className="heading">
@@ -171,15 +172,15 @@ function App() {
       </div>
 
       {/*Motivity*/}
-<div className="container">
-  <div className="line-and-logos">
-      <img src={require('./images/Motivity.png')} alt="Image Description" className='icon' />
-    <div className="vertical-line"></div>
-  </div>  
-  <div className="card-container">
-  <div className="card-experience">
-
-  <p> 
+      <div className="container">
+        <div className="line-and-logos">
+          <img src={require('./images/Motivity.png')} alt="Image Description" className='icon' />
+          <div className="vertical-line"></div>
+        </div>  
+        
+        <div className="card-container">
+          <div className="card-experience">
+          <p> 
             <b>Company:</b> Motivity ICT South Africa <br></br>
             <b>Location:</b> Century City, Cape Town, South Africa <br></br> 
             <b>Position:</b> IT Intern <br></br>
@@ -189,23 +190,22 @@ function App() {
             Rotated across different departments to get exposure and learn on the job, 
             performed duties at the designated workstation and client property. Worked with back
             office adminstrators and did small tasks for managers such as writing formulas on Microsoft Excel for organization of data.
-  </p>
-  </div>
-     
-  </div>
-</div>
+          </p>
+          </div>
+        </div>
+      </div>
 
-{/*CAPACITI*/}
-<div className="container">
-  <div className="line-and-logos">
-      <img src={require('./images/UVU.png')} alt="Image Description" className='icon' />
-    <div className="vertical-line"></div>
-  </div>
-  <div className="card-container">
-  <div className="card-experience">
+      {/*CAPACITI*/}
+      <div className="container">
+        <div className="line-and-logos">
+          <img src={require('./images/UVU.png')} alt="Image Description" className='icon' />
+          <div className="vertical-line"></div>
+        </div>
 
-  <p> 
-  <b>Company:</b> CapaCiTi Tech Career Accelerator (UVU Africa) <br></br>
+        <div className="card-container">
+          <div className="card-experience">
+          <p> 
+            <b>Company:</b> CapaCiTi Tech Career Accelerator (UVU Africa) <br></br>
             <b>Location:</b> Salt River, Cape Town, South Africa <br></br>
             <b>Position:</b> Software Developer Intern <br></br>
             <b>Job type:</b> Internship <br></br>
@@ -214,37 +214,35 @@ function App() {
             A 6 month programme spent on campus that was designed to grow and upskill our skills of a software developer intern. Worked
             on various projects which consisted of the following languages: HTML, CSS, javascript, Java, Python, NodeJS. Having worked on these projects,
             we were exposed to teamwork, time management skills and what it means to work on a project as a team while having a different team leader within the group.
-  </p>
-  </div>
-      
-  </div>
-</div>
+          </p>
+          </div>
+        </div>
+      </div>
 
-{/*YOUNGLINGS*/}
-<div className="container">
-  <div className="line-and-logos">
-      <img src={require('./images/ABSA.png')} alt="Image Description" className='icon' />
-    <div className="vertical-line"></div>
-  </div>
-  <div className="card-container">
-  <div className="card-experience">
+      {/*YOUNGLINGS*/}
+      <div className="container">
+        <div className="line-and-logos">
+          <img src={require('./images/ABSA.png')} alt="Image Description" className='icon' />
+          <div className="vertical-line"></div>
+        </div>
 
-  <p> 
-  <b>Company:</b> Younglings Africa (ABSA) <br></br>
+        <div className="card-container">
+          <div className="card-experience">
+          <p> 
+            <b>Company:</b> Younglings Africa (ABSA) <br></br>
             <b>Location:</b> Cape Town, South Africa <br></br>
             <b>Position:</b> Junior Software Developer <br></br>
             <b>Job type:</b> Internship <br></br>
             <b>Duration:</b> 22 January 2024 - Present <br></br><br></br>
             <b>Job description:</b> <br></br>
             12 months spent at Younglings Africa where we will be exposed to industry best practices, real world applications and soft skills.
-  </p>
-  </div>
-      
-  </div>
-</div>  
+          </p>
+          </div>
+        </div>
+      </div>  
       
 
-
+      {/*PROJECTS COMPLETED section*/}
       <div className="center">
         <section id="projects">
           <h1 className="heading">
@@ -254,7 +252,7 @@ function App() {
       </div>
 
       <div className="cards-container">
-        {/* Project 1 */}
+        {/* Bakery website project */}
         <div className="card-project1">
           <h2 style={{ textAlign: "center" }}>Bakery website</h2>
           <br></br>
@@ -274,11 +272,11 @@ function App() {
         </div>
       
 
-        {/* Project 2 */}
+        {/* Online portfolio project*/}
         <div className="card-project2">
           <h2 style={{ textAlign: "center" }}>Online portfolio</h2>
           <br></br>
-          
+
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div class="book">
               <p>Description of project 2 goes here</p>
@@ -294,7 +292,7 @@ function App() {
         </div>
 
 
-        {/* Project 3 */}
+        {/* Checkers project */}
         <div className="card-project3">
           <h2 style={{ textAlign: "center" }}>Checkers game</h2>
           <br></br>
@@ -310,18 +308,19 @@ function App() {
         </div>
 
           <button className="download-project-3">Download project</button>
+        </div>
       </div>
-    </div>
 
-    <div className="center">
-    {/* More projects */}
-      <div className="card-more">
+
+      {/* More projects card*/}
+      <div className="center">
+        <div className="card-more">
         VIEW MORE PROJECTS ON GITHUB
+        </div>
       </div>
-    </div>
 
 
-      {/*contact me section*/}
+      {/*CONTACT ME section*/}
       <div className="center">
         <section id="contact">
           <h1 className="heading">
@@ -333,6 +332,7 @@ function App() {
       <br />
       <br />
 
+      {/*Form + picture*/}
       <div className="center">
         <div className="form-container">
           <div className="form-image">
@@ -369,9 +369,9 @@ function App() {
             <br />
             <br />
 
+            {/*submit and reset buttons below*/}
             <button className="submit">SUBMIT</button>
             <br />
-          
             <input type="reset" className="clear" value="RESET"></input>
           </form>
         </div>
@@ -438,78 +438,8 @@ function App() {
   </div>*/}
 
 
-
-
-
-
-
-
-    
-
-
-         
-
-      
-                    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
+
   );
 }
 

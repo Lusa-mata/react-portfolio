@@ -312,7 +312,7 @@ body {
   
 }
     
-  
+/*this is to make it display as a column*/
 .form {
   margin-top: 0.1rem;
   display: flex;
