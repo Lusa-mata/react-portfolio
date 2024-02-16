@@ -326,6 +326,7 @@ body {
   margin-right: 25px;
 }
 
+/*all the input fields are grouped*/
 .input-group {
   margin-top: 0.15rem;
   font-size: 0.875rem;
@@ -333,24 +334,17 @@ body {
   display: flex;
   flex-direction: column; /* Display input and label in a column */
 }
-    
+
+/*input field labels*/
 .input-group label { 
   display: block;
   color: rgb(255, 255, 255);
   margin-bottom: 4px;
   margin-left: 100px;
 }
-    
-.input-group input {
-  width: 42%;
-  border-radius: 10px;
-  border: 1px solid white;
-  background-color: #000220;
-  padding: 12px;
-  color: rgba(243, 244, 246, 1);
-  margin-left: 100px;
-}
 
+/*input field styling*/
+.input-group input, 
 .input-group textarea {
   width: 42%;
   border-radius: 10px;
@@ -360,16 +354,12 @@ body {
   color: rgba(243, 244, 246, 1);
   margin-left: 100px;
 }
-    
-.input-group input:focus {
-  border-color: rgb(60, 255, 0); /*color that outlines user is in the textfield*/
-}
    
 
-.input-group textarea:focus {
-  border-color: rgb(60, 255, 0); /*color that outlines user is in the textfield*/
+.input-group input:focus, .input-group textarea:focus {
+  border: rgb(60, 255, 0); /*color that outlines user is in the textfield*/
 }
-    
+
   
 .submit {
   display: block;
