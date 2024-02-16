@@ -663,7 +663,16 @@ background: #03f40f;
   display: -ms-flexbox;
   display: flex;
 
+  
 }
+
+.book:hover {
+  box-shadow: 0 0 5px #ffffff,
+              0 0 10px #ffffff,
+              0 0 15px #ffffff,
+              0 0 20px #ffffff;
+}
+
 
 .cover {
   position: absolute;
@@ -679,6 +688,7 @@ background: #03f40f;
   display: -ms-flexbox;
   display: flex;
   
+  
 }
 
 .book:hover .cover {
@@ -687,6 +697,7 @@ background: #03f40f;
   -webkit-transform: rotatey(-86deg);
   -ms-transform: rotatey(-86deg);
   transform: rotatey(-86deg);
+  
 }
 
 p {
