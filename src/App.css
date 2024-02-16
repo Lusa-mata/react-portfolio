@@ -545,7 +545,6 @@ font-size: 16px;
   border-radius: 30px;
   font-weight: 600; /*makes the text bold*/
   cursor: pointer;
-  margin-left: 100px;
   margin-top: 45px;
   margin-bottom: 45px;
 }
@@ -612,7 +611,7 @@ background: #03f40f;
   cursor: pointer;
   margin-left: 100px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .download-project-2:hover {
@@ -650,7 +649,7 @@ background: #03f40f;
   border-radius: 30px;
   font-weight: 600; /*makes the text bold*/
   cursor: pointer;
-  margin-left: 100px;
+  
   margin-top: 45px;
   margin-bottom: 45px;
 }

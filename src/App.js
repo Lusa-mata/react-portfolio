@@ -266,9 +266,9 @@ function App() {
               </div>
             </div> 
           </div>
-          
+          <div className="center">
           <button className="download-project-1">Download project</button>
-          
+          </div>
         </div>
       
 
@@ -286,9 +286,10 @@ function App() {
               </div>
             </div> 
           </div>
-
-          <button className="view-project-2">View Demo</button>
+          
+          <button className="view-project-2">View Demo</button><br></br>
           <button className="download-project-2">Download project</button>
+          
         </div>
 
 
@@ -306,8 +307,8 @@ function App() {
               </div>
             </div> 
         </div>
-
-          <button className="download-project-3">Download project</button>
+        <div className="center">
+          <button className="download-project-3">Download project</button></div>
         </div>
       </div>
 
