@@ -223,6 +223,13 @@ body {
   overflow: hidden;
 }
 
+.home-container:hover {
+  box-shadow: 0 0 5px #ffffff,
+              0 0 10px #ffffff,
+              0 0 15px #ffffff,
+              0 0 20px #ffffff;
+}
+
 
 
 /*heading and line transition starts below*/
@@ -309,7 +316,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; 
-  
+}
+
+.form-container:hover {
+  box-shadow: 0 0 5px #ffffff,
+              0 0 10px #ffffff,
+              0 0 15px #ffffff,
+              0 0 20px #ffffff;
 }
     
 /*this is to make it display as a column*/
@@ -443,6 +456,13 @@ body {
   height: 400px;
 }
 
+.card-Overview:hover {
+  box-shadow: 0 0 5px #ffffff,
+              0 0 10px #ffffff,
+              0 0 15px #ffffff,
+              0 0 20px #ffffff;
+}
+
 
 /*card for skills*/
 .card-Skills {
@@ -454,6 +474,13 @@ border: 2px solid#fff;
 border-radius: 30px;
 margin: auto;
 margin-top: 50px;
+}
+
+.card-Skills:hover{
+  box-shadow: 0 0 5px #ffffff,
+              0 0 10px #ffffff,
+              0 0 15px #ffffff,
+              0 0 20px #ffffff;
 }
 
 .skill {
@@ -802,16 +829,39 @@ p {
   margin-left: 60px; /* Adjust this value to control the space between the line and cards */
 }
 
-.card-experience {
+.card-experience-Motivity {
   width: 700px;
   height: auto;
   color: white;
   background-color: #000235;
-  border: 2px solid #ffffff;
+  border-top: 2px solid #ff0000;
+  border-left: 2px solid #ff0000;
+  border-right: 2px solid #ff0000;
   border-radius: 30px;
+}  
 
+.card-experience-UVU {
+  width: 700px;
+  height: auto;
+  color: white;
+  background-color: #000235;
+  border-left: 2px solid orange;
+  border-right: 2px solid orange;
+  border-radius: 30px;
+}  
+
+.card-experience-ABSA {
+  width: 700px;
+  height: auto;
+  color: white;
+  background-color: #000235;
+  border-bottom: 2px solid #03f40f;
+  border-left: 2px solid #03f40f;
+  border-right: 2px solid #03f40f;
+  border-radius: 30px;
 }  
 
 p {
   font-size: 16px;
 }
+

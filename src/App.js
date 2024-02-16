@@ -179,7 +179,7 @@ function App() {
         </div>  
         
         <div className="card-container">
-          <div className="card-experience">
+          <div className="card-experience-Motivity">
           <p> 
             <b>Company:</b> Motivity ICT South Africa <br></br>
             <b>Location:</b> Century City, Cape Town, South Africa <br></br> 
@@ -203,7 +203,7 @@ function App() {
         </div>
 
         <div className="card-container">
-          <div className="card-experience">
+          <div className="card-experience-UVU">
           <p> 
             <b>Company:</b> CapaCiTi Tech Career Accelerator (UVU Africa) <br></br>
             <b>Location:</b> Salt River, Cape Town, South Africa <br></br>
@@ -227,7 +227,7 @@ function App() {
         </div>
 
         <div className="card-container">
-          <div className="card-experience">
+          <div className="card-experience-ABSA">
           <p> 
             <b>Company:</b> Younglings Africa (ABSA) <br></br>
             <b>Location:</b> Cape Town, South Africa <br></br>
