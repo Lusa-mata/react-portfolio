@@ -817,7 +817,7 @@ p {
 }
 
 .vertical-line {
-  width: 2px;
+  width: 3px;
   height: 200px; /* Adjust this value to match the total height of the cards and margins */
   background-color: white;
 }
