@@ -469,17 +469,9 @@ function App() {
     <br></br>
     <br></br>
     
-    <div class="card">
-  <div class="image"></div>
-  <div class="card-info">
-    <span>George Johnson</span>
-    <p>Support Specialist</p>
-  </div>
-  <a class="button" href="#">Folow</a>
-</div>
-
     
 
+    
 
 
 
