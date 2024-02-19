@@ -240,7 +240,7 @@ function App() {
           </div>
         </div>
       </div>  
-      
+
 
       {/*PROJECTS COMPLETED section*/}
       <div className="center">
@@ -380,62 +380,6 @@ function App() {
 
 
 
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-{/*might use it later on
-  <div class="cards">
-    <div class="card red">
-        <p class="tip">Hover Me</p>
-        <p class="second-text">Lorem Ipsum</p>
-    </div>
-    
-    <div class="card blue">
-        <p class="tip">Hover Me</p>
-        <p class="second-text">Lorem Ipsum</p>
-    </div>
-    
-    <div class="card green">
-        <p class="tip">Hover Me</p>
-        <p class="second-text">Lorem Ipsum</p>
-    </div>
-  </div>*/}
 
 
 </div>
