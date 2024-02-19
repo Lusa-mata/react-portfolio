@@ -470,7 +470,7 @@ function App() {
     <br></br>
     
     <div className="footer">
-    © 2024 Lusaduma Mata's Portfolio | All rights reserved
+    © 2024 Lusaduma Mata's Portfolio 
     </div>
 
     
