@@ -782,7 +782,14 @@ p {
   border-left: 2px solid #ff0000;
   border-right: 2px solid #ff0000;
   border-radius: 30px;
-}  
+}
+
+.card-experience-Motivity:hover {
+  box-shadow: 0 0 5px #ff0000,
+              0 0 10px #ff0000,
+              0 0 15px #ff0000,
+              0 0 20px #ff0000;
+}
 
 .card-experience-UVU {
   width: 800px;
@@ -792,7 +799,14 @@ p {
   border-left: 2px solid orange;
   border-right: 2px solid orange;
   border-radius: 30px;
-}  
+}
+
+.card-experience-UVU:hover {
+  box-shadow: 0 0 5px orange,
+              0 0 10px orange,
+              0 0 15px orange,
+              0 0 20px orange;
+}
 
 .card-experience-ABSA {
   width: 800px;
@@ -804,6 +818,13 @@ p {
   border-right: 2px solid #03f40f;
   border-radius: 30px;
 }  
+
+.card-experience-ABSA:hover {
+  box-shadow: 0 0 5px #03f40f,
+              0 0 10px #03f40f,
+              0 0 15px #03f40f,
+              0 0 20px #03f40f;
+}
 
 p {
   font-size: 16px;
