@@ -182,30 +182,29 @@ function App() {
         </section>
       </div>
 
-      {/*Motivity*/}
+      {/*YOUNGLINGS*/}
       <div className="container">
         <div className="line-and-logos">
-          <img src={require('./images/Motivity.png')} alt="Image Description" className='icon' />
+          <img src={require('./images/ABSA.png')} alt="Image Description" className='icon' />
           <div className="vertical-line"></div>
-        </div>  
-        
+        </div>
+
         <div className="card-container">
-          <div className="card-experience-Motivity">
+          <div className="card-experience-ABSA">
           <p> 
-            <b>Company:</b> Motivity ICT South Africa <br></br>
-            <b>Location:</b> Century City, Cape Town, South Africa <br></br> 
-            <b>Position:</b> IT Intern <br></br>
+            <b>Company:</b> Younglings Africa (ABSA) <br></br>
+            <b>Location:</b> Cape Town, South Africa <br></br>
+            <b>Position:</b> Junior Software Developer <br></br>
             <b>Job type:</b> Internship <br></br>
-            <b>Duration:</b> 5 May 2023 - 14 July 2023 (2 months) <br></br><br></br>
-            <b>Job description:</b><br></br>
-            Rotated across different departments to get exposure and learn on the job, 
-            performed duties at the designated workstation and client property. Worked with back
-            office adminstrators and did small tasks for managers such as writing formulas on Microsoft Excel for organization of data.
+            <b>Duration:</b> 22 January 2024 - Present <br></br><br></br>
+            <b>Job description:</b> <br></br>
+            12 months spent at Younglings Africa where we are exposed to industry best practices, real world applications and soft skills.
           </p>
           </div>
         </div>
-      </div>
+      </div>  
 
+      
       {/*CAPACITI*/}
       <div className="container">
         <div className="line-and-logos">
@@ -230,27 +229,30 @@ function App() {
         </div>
       </div>
 
-      {/*YOUNGLINGS*/}
+      {/*Motivity*/}
       <div className="container">
         <div className="line-and-logos">
-          <img src={require('./images/ABSA.png')} alt="Image Description" className='icon' />
+          <img src={require('./images/Motivity.png')} alt="Image Description" className='icon' />
           <div className="vertical-line"></div>
-        </div>
-
+        </div>  
+        
         <div className="card-container">
-          <div className="card-experience-ABSA">
+          <div className="card-experience-Motivity">
           <p> 
-            <b>Company:</b> Younglings Africa (ABSA) <br></br>
-            <b>Location:</b> Cape Town, South Africa <br></br>
-            <b>Position:</b> Junior Software Developer <br></br>
+            <b>Company:</b> Motivity ICT South Africa <br></br>
+            <b>Location:</b> Century City, Cape Town, South Africa <br></br> 
+            <b>Position:</b> IT Intern <br></br>
             <b>Job type:</b> Internship <br></br>
-            <b>Duration:</b> 22 January 2024 - Present <br></br><br></br>
-            <b>Job description:</b> <br></br>
-            12 months spent at Younglings Africa where we are exposed to industry best practices, real world applications and soft skills.
+            <b>Duration:</b> 5 May 2023 - 14 July 2023 (2 months) <br></br><br></br>
+            <b>Job description:</b><br></br>
+            Rotated across different departments to get exposure and learn on the job, 
+            performed duties at the designated workstation and client property. Worked with back
+            office adminstrators and did small tasks for managers such as writing formulas on Microsoft Excel for organization of data.
           </p>
           </div>
         </div>
-      </div>  
+      </div>
+      
 
 
       {/*PROJECTS COMPLETED section*/}
