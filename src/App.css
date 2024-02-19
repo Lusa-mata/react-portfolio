@@ -831,7 +831,14 @@ p {
 }
 /*work experience ends here*/
 
-
+/*footer*/
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(#000118,rgb(111, 0, 255));
+  padding: 10px 20px; 
+}
 
 
 
