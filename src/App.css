@@ -756,21 +756,21 @@ p {
 }
 
 .icon {
-  width: 80px; /* Adjust the width as needed */
-  height: 80px; /* Adjust the height as needed */
-  margin-right: 6px; /* Adjust the margin to control the space between the icon and the vertical line */
+  width: 80px;    
+  height: 80px; 
+  margin-right: 6px; /* margin to control the space between the icon and the vertical line */
 }
 
 .vertical-line {
   width: 3px;
-  height: 200px; /* Adjust this value to match the total height of the cards and margins */
+  height: 200px; /* total height of the cards and margins */
   background-color: white;
 }
 
 .card-container {
   display: flex;
   flex-direction: column;
-  margin-left: 60px; /* Adjust this value to control the space between the line and cards */
+  margin-left: 60px; /* Spacing between line and cards */
 }
 
 .card-experience-Motivity {

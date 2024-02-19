@@ -246,7 +246,7 @@ function App() {
             <b>Job type:</b> Internship <br></br>
             <b>Duration:</b> 22 January 2024 - Present <br></br><br></br>
             <b>Job description:</b> <br></br>
-            12 months spent at Younglings Africa where we will be exposed to industry best practices, real world applications and soft skills.
+            12 months spent at Younglings Africa where we are exposed to industry best practices, real world applications and soft skills.
           </p>
           </div>
         </div>
