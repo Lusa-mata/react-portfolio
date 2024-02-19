@@ -435,12 +435,12 @@ body {
 
 
 
-/* Container for cards for about me */
+/* Container for cards for ABOUT ME */
 .cards-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 /* card for overview */
@@ -469,6 +469,7 @@ body {
               0 0 15px #ffffff,
               0 0 20px #ffffff;
 }
+
 
 
 /*card for skills*/
@@ -520,6 +521,28 @@ height: 100%;
 margin-left: 20px;
 font-size: 16px;
 }  
+
+
+/*OVERVIEW RESPONSIVENESS*/
+@media only screen and (max-width: 768px) {
+  .card-Overview {
+    width: 80%; /* Adjust the width for smaller screens */
+    flex-direction: column; /* Stack the image and text vertically */
+  }
+
+  .card-Overview img {
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+
+
+
+
+
+
+
 
 /* Container for cards */
 .cards-container-projects {

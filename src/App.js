@@ -168,7 +168,7 @@ function App() {
             </div>
             <div className="skill-percent-number">60%</div>
           </div>
-      </div>
+        </div>
       </div>
       <br></br>
 
