@@ -204,7 +204,6 @@ function App() {
         </div>
       </div>  
 
-      
       {/*CAPACITI*/}
       <div className="container">
         <div className="line-and-logos">

@@ -590,7 +590,7 @@ background: #03f40f;
   border-radius: 30px;
   font-weight: 600; /*makes the text bold*/
   cursor: pointer;
-  margin-left: 100px;
+  margin-left: 90px;
   margin-top: 20px;
 }
 
@@ -616,9 +616,9 @@ background: #03f40f;
   border-radius: 30px;
   font-weight: 600; /*makes the text bold*/
   cursor: pointer;
-  margin-left: 100px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-left: 90px;
+
+  margin-bottom: 15px;
 }
 
 .download-project-2:hover {
@@ -764,7 +764,7 @@ p {
 .icon {
   width: 80px;    
   height: 80px; 
-  margin-right: 6px; /* margin to control the space between the icon and the vertical line */
+  margin-right: 4px; /* margin to control the space between the icon and the vertical line */
 }
 
 .vertical-line {
@@ -788,6 +788,7 @@ p {
   border-left: 2px solid #ff0000;
   border-right: 2px solid #ff0000;
   border-radius: 30px;
+  
 }
 
 .card-experience-Motivity:hover {
