@@ -797,7 +797,7 @@ p {
   color: white;
   background-color: #000235;
   border-left: 2px solid orange;
-  border-right: 2px solid orange;
+  border-right: 2px solid rgb(150, 108, 32);
   border-radius: 30px;
 }
 
