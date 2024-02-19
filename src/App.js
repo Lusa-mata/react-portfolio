@@ -58,8 +58,14 @@ function App() {
           <br />
           <br />
         </div>
+        <br />
+          
       </div>
-
+      <br />
+          <br />
+          <br />
+          
+       
 
       {/*ABOUT ME section*/}
       <div className="center">
@@ -85,9 +91,12 @@ function App() {
             in 2022, where I gained a solid foundation in information technology and 
             software engineering. <br></br><br></br> 
             
-            I am passionate about solving problems, resilient, patient and focused, and I aspire 
+            I am passionate about solving problems, resilient, patient and focused, good time management skills, and I aspire 
             to become a professional software developer who can create value and positive 
-            change through technology. 
+            change through technology. <br></br><br></br> 
+
+            My hobbies and interests would be playing chess during my free time, traveling, photography and learning
+            new languages
           </p>
         </div>
 
@@ -140,14 +149,6 @@ function App() {
             <div className="skill-percent-number">65%</div>
           </div>
 
-          {/* Programming */}
-          <div className="skill">
-            <div className="skill-name">Programming</div>
-            <div className="skill-level">
-              <div style={{ width: "65%" }} className="skill-percent"></div>
-            </div>
-            <div className="skill-percent-number">65%</div>
-          </div>
     
           {/* Java */}
           <div className="skill">
@@ -157,7 +158,17 @@ function App() {
             </div>
             <div className="skill-percent-number">60%</div>
           </div>
-        </div>
+        
+
+          {/* .NET */}
+        <div className="skill">
+            <div className="skill-name">.NET</div>
+            <div className="skill-level">
+              <div style={{ width: "60%" }} className="skill-percent"></div>
+            </div>
+            <div className="skill-percent-number">60%</div>
+          </div>
+      </div>
       </div>
       <br></br>
 
@@ -377,6 +388,90 @@ function App() {
           </form>
         </div>
       </div>
+    
+
+    
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    
+    
+
+    
 
 
 

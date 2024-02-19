@@ -448,12 +448,13 @@ body {
   margin: auto;
   margin-top: 50px;
   font-size: 16px;
+  
 }
 
 /* card for image in overview */
 .card-Overview img {
   width: 250px;
-  height: 400px;
+  height: 350px;
 }
 
 .card-Overview:hover {
@@ -467,7 +468,7 @@ body {
 /*card for skills*/
 .card-Skills {
 width: 45%;
-height: auto;
+height: 350px;
 color: white;
 background-color: #000235;
 border: 2px solid#fff;
@@ -773,7 +774,7 @@ p {
 }
 
 .card-experience-Motivity {
-  width: 700px;
+  width: 800px;
   height: auto;
   color: white;
   background-color: #000235;
@@ -784,7 +785,7 @@ p {
 }  
 
 .card-experience-UVU {
-  width: 700px;
+  width: 800px;
   height: auto;
   color: white;
   background-color: #000235;
@@ -794,7 +795,7 @@ p {
 }  
 
 .card-experience-ABSA {
-  width: 700px;
+  width: 800px;
   height: auto;
   color: white;
   background-color: #000235;
