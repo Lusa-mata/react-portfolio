@@ -220,9 +220,8 @@ function App() {
             <b>Job type:</b> Internship <br></br>
             <b>Duration:</b> 17 July 2023 - 19 January 2024 (6 months) <br></br><br></br>
             <b>Job description:</b> <br></br>
-            A 6 month programme spent on campus that was designed to grow and upskill our skills of a software developer intern. Worked
-            on various projects which consisted of the following languages: HTML, CSS, javascript, Java, Python, NodeJS. Having worked on these projects,
-            we were exposed to teamwork, time management skills and what it means to work on a project as a team while having a different team leader within the group.
+            A 6 month programme spent on campus that was designed to grow and upskill our skills of a software developer intern. <br></br>
+            We were exposed to teamwork, time management skills and what it means to work on a project as a team while having a different team leader within the group.
           </p>
           </div>
         </div>
@@ -245,7 +244,8 @@ function App() {
             <b>Duration:</b> 5 May 2023 - 14 July 2023 (2 months) <br></br><br></br>
             <b>Job description:</b><br></br>
             Rotated across different departments to get exposure and learn on the job, 
-            performed duties at the designated workstation and client property. Worked with back
+            performed duties at the designated workstation and client property.
+            <br></br> Worked with back
             office adminstrators and did small tasks for managers such as writing formulas on Microsoft Excel for organization of data.
           </p>
           </div>
