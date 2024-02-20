@@ -198,13 +198,23 @@ function App() {
             <b>Job type:</b> Internship <br></br>
             <b>Duration:</b> 22 January 2024 - Present <br></br><br></br>
             <b>Job description:</b> <br></br>
-            12 months spent at Younglings Africa where we are exposed to industry best practices, real world applications and soft skills.
+            During my 12 months, I gained exposure to industry best practices,
+             real-world applications, and soft skills. Responsibilities included learning 
+             the codebase, enhancing coding skills, writing and maintaining code, 
+             addressing minor bug fixes, conducting development tests, and promptly 
+             responding to requests from the development team.
+
+
+
+
+
+
           </p>
           </div>
         </div>
       </div>  
 
-      {/*CAPACITI*/}
+      {/*CAPACITI - UVU*/}
       <div className="container">
         <div className="line-and-logos">
           <img src={require('./images/UVU.png')} alt="Image Description" className='icon' />
@@ -220,8 +230,10 @@ function App() {
             <b>Job type:</b> Internship <br></br>
             <b>Duration:</b> 17 July 2023 - 19 January 2024 (6 months) <br></br><br></br>
             <b>Job description:</b> <br></br>
-            A 6 month programme spent on campus that was designed to grow and upskill our skills of a software developer intern. <br></br>
-            We were exposed to teamwork, time management skills and what it means to work on a project as a team while having a different team leader within the group.
+            I completed a 6-month on-campus software developer internship, emphasizing teamwork, 
+            time management, and project collaboration with various team leaders. 
+            The program aimed to prepare interns for real-world challenges, providing a 
+            well-rounded skill set for a successful transition into the industry.
           </p>
           </div>
         </div>
@@ -243,10 +255,17 @@ function App() {
             <b>Job type:</b> Internship <br></br>
             <b>Duration:</b> 5 May 2023 - 14 July 2023 (2 months) <br></br><br></br>
             <b>Job description:</b><br></br>
-            Rotated across different departments to get exposure and learn on the job, 
-            performed duties at the designated workstation and client property.
-            <br></br> Worked with back
-            office adminstrators and did small tasks for managers such as writing formulas on Microsoft Excel for organization of data.
+            I rotated through diverse departments, gaining exposure and on-the-job learning. 
+            Executed duties at workstations and client properties, providing assistance to 
+            back-office administrators. Engaged in tasks including writing Excel formulas 
+            for efficient data organization, contributing to a comprehensive experience in 
+            diverse aspects of the environment.
+
+
+
+
+
+
           </p>
           </div>
         </div>
@@ -333,6 +352,17 @@ function App() {
       </div>
 
 
+
+
+
+
+
+      {/* PROJECTS COMPLETED RESPONSIVENESS */}
+
+
+
+
+      
       {/*CONTACT ME section*/}
       <div className="center">
         <section id="contact">
