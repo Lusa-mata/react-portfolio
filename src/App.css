@@ -430,8 +430,127 @@ body {
 
 
 /*FORM RESPONSIVENESS*/
+@media only screen and (max-width: 768px) {
+.form-container {
+  width: 100%;
+  border-radius: 30px;
+  background-color: #000235;
+  border: 2px solid white;
+  padding: 2rem;
+  color: rgba(243, 244, 246, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.form-container:hover {
+  box-shadow: 0 0 5px #ffffff,
+              0 0 10px #ffffff,
+              0 0 15px #ffffff,
+              0 0 20px #ffffff;
+}
+    
+/*this is to make it display as a column*/
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+}
+    
+.form-image {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 40px;
+}
+
+/*all the input fields are grouped*/
+.input-group {
+  margin-top: 0.15rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  display: flex;
+  flex-direction: column; /* Display input and label in a column */
+}
+
+/*input field labels*/
+.input-group label { 
+  display: block;
+  color: rgb(255, 255, 255);
+  margin-bottom: 4px;
+  margin-left: 100px;
+}
+
+/*input field styling*/
+.input-group input, 
+.input-group textarea {
+  width: 50%;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: #000220;
+  padding: 12px;
+  color: rgba(243, 244, 246, 1);
+  margin-left: 100px;
+}
+   
+
+.input-group input:focus, .input-group textarea:focus {
+  border: rgb(60, 255, 0); /*color that outlines user is in the textfield*/
+}
+
+  
+.submit {
+  display: block;
+  width: 60%;
+  background-color: rgb(81, 255, 0);
+  padding: 10px 20px;
+  text-align: center;
+  color: rgba(17, 24, 39, 1);
+  border: 1px solid #03f40f;
+  background: linear-gradient(#fff,#40c9ff);
+  border-radius: 30px;
+  font-weight: 600; /*makes the text bold*/
+  cursor: pointer;
+  margin-left: 100px;
+}
 
 
+.submit:hover {
+  background: #03f40f;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03f40f,
+              0 0 25px #03f40f,
+              0 0 50px #03f40f,
+              0 0 100px #03f40f;
+}
+
+
+.clear {
+  display: block;
+  width: 60%;
+  background: linear-gradient(#fff,#40c9ff);
+  padding: 0.75rem;
+  text-align: center;
+  color: rgba(17, 24, 39, 1);
+  border: 1px solid #f40303;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 100px;
+  border-radius: 30px; 
+}
+
+
+.clear:hover {
+  background: #f40303;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #f40303,
+              0 0 25px #f40303,
+              0 0 50px #f40303,
+              0 0 100px #f40303;
+}
+}
 
 
 
