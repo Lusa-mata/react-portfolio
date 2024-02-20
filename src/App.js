@@ -198,8 +198,8 @@ function App() {
             <b>Job type:</b> Internship <br></br>
             <b>Duration:</b> 22 January 2024 - Present <br></br><br></br>
             <b>Job description:</b> <br></br>
-            During my 12 months, I gained exposure to industry best practices,
-             real-world applications, and soft skills. Responsibilities included learning 
+            During my 12 months, I will gain exposure to industry best practices,
+             real-world applications, and soft skills. Responsibilities include learning 
              the codebase, enhancing coding skills, writing and maintaining code, 
              addressing minor bug fixes, conducting development tests, and promptly 
              responding to requests from the development team.
@@ -232,7 +232,7 @@ function App() {
             <b>Job description:</b> <br></br>
             I completed a 6-month on-campus software developer internship, emphasizing teamwork, 
             time management, and project collaboration with various team leaders. 
-            The program aimed to prepare interns for real-world challenges, providing a 
+            The program aimed to prepare us interns for real-world challenges, providing a 
             well-rounded skill set for a successful transition into the industry.
           </p>
           </div>
