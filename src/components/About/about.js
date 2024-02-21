@@ -1,6 +1,7 @@
 import React from 'react'
 import "./about.css"
 
+
 function about() {
   return (
     <div>
@@ -22,7 +23,7 @@ function about() {
         <div className="card-Overview">
         <br />
         <br />
-          <img src='./images/Graduation_picture-removebg-preview.png'/>
+          <img src="/images/Graduation_picture-removebg-preview.png" alt="Graduation picture" />
           <p> 
             I graduated with a diploma in software development from IIE Rosebank College 
             in 2022, where I gained a solid foundation in information technology and 
