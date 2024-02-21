@@ -17,7 +17,7 @@ function home() {
           <br />
 
           <div className='profile-img'>
-            {/* <img src="/images/graduation 2.jfif" /> */}
+            <img src="/images/graduation 2.jfif" />
           </div>
           <br />
           
