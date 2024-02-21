@@ -1,4 +1,5 @@
 import React from 'react'
+import "./about.css"
 
 function about() {
   return (
@@ -21,7 +22,7 @@ function about() {
         <div className="card-Overview">
         <br />
         <br />
-          <img src={require('./images/Graduation_picture-removebg-preview.png')} />
+          <img src='./images/Graduation_picture-removebg-preview.png'/>
           <p> 
             I graduated with a diploma in software development from IIE Rosebank College 
             in 2022, where I gained a solid foundation in information technology and 
