@@ -283,10 +283,13 @@
     }
 
     .card-project1,
-    .card-project2,
-    .card-project3 {
+    .card-project2 {
         width: 90%;
         margin-bottom: 40px;
+    }
+
+    .card-project3 {
+      width: 90%;
     }
 
     .book {
@@ -305,5 +308,9 @@
     .download-project-3 {
       margin-top: 30px;
       margin-bottom: 30px;
+    }
+
+    .card-more {
+      margin-bottom: 60px;
     }
 }
