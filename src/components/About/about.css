@@ -86,8 +86,8 @@
   }  
   
   
-  /* Responsive styles for smaller screens (e.g., Samsung S20) */
-/* Responsive styles for smaller screens (e.g., Samsung S20) */
+/*RESPONSIVENESS
+/* Small devices- SAMSUNG S20, A12, S21, Pixel 6 PRO, iPhone 13 PRO  */
 @media screen and (max-width: 767px) {
   .cards-container {
       flex-direction: column;
@@ -101,13 +101,42 @@
   }
 
   .card-Overview img {
-      width: 50%; /* Set the image width to 100% for responsiveness */
-      height: 300px; /* Maintain the aspect ratio */
+      width: 45%; /* Set the image width to 100% for responsiveness */
+      height: 400px; /* Maintain the aspect ratio */
       order: -1; /* Move the image above the paragraph */
   }
 
   .card-Overview p {
-      font-size: 12px;
+      font-size: 14px;
       margin-top: 10px; /* Add some space between the image and the paragraph */
   }
 }
+
+
+
+
+/* Larger devices- MacBook Air */
+@media screen and (min-width: 1024px) {
+  .cards-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card-Overview,
+  .card-Skills {
+    width: 45%;
+    margin-top: 50px;
+  }
+
+  .card-Overview img {
+    width: 250px;
+    height: 350px;
+    order: initial; /* Reset the order property */
+  }
+
+  .card-Overview p {
+    font-size: 16px;
+    margin-top: 0; /* Reset the margin */
+  }
+}
+
