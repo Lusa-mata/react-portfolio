@@ -1,4 +1,6 @@
 import React from 'react'
+import "./work.css"
+
 
 function work() {
   return (
@@ -15,7 +17,7 @@ function work() {
       {/*YOUNGLINGS*/}
       <div className="container">
         <div className="line-and-logos">
-          <img src={require('./images/ABSA.png')} alt="Image Description" className='icon' />
+          <img src="/images/ABSA.png" alt="Image Description" className='icon' />
           <div className="vertical-line"></div>
         </div>
 
@@ -47,7 +49,7 @@ function work() {
       {/*CAPACITI - UVU*/}
       <div className="container">
         <div className="line-and-logos">
-          <img src={require('./images/UVU.png')} alt="Image Description" className='icon' />
+          <img src="/images/UVU.png" alt="Image Description" className='icon' />
           <div className="vertical-line"></div>
         </div>
 
@@ -72,7 +74,7 @@ function work() {
       {/*Motivity*/}
       <div className="container">
         <div className="line-and-logos">
-          <img src={require('./images/Motivity.png')} alt="Image Description" className='icon' />
+          <img src="/images/Motivity.png" alt="Image Description" className='icon' />
           <div className="vertical-line"></div>
         </div>  
         

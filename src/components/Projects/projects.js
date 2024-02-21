@@ -1,4 +1,6 @@
 import React from 'react'
+import "./projects.css"
+
 
 function projects() {
   return (
@@ -23,7 +25,7 @@ function projects() {
               <p>Description of project 1 goes here</p>
         
               <div class="cover">
-                <img src={require('./images/ikhekhe.jpg')} alt="Cake image" />
+                {/* <img src="/images/ikhekhe.jpg" alt="Cake image" /> */}
               </div>
             </div> 
           </div>
@@ -43,7 +45,7 @@ function projects() {
               <p>Description of project 2 goes here</p>
               
               <div class="cover">
-                <img src={require('./images/old portfolio.png')} alt="Cake image" />
+                {/* <img src="/images/old portfolio.png" alt="Cake image" /> */}
               </div>
             </div> 
           </div>
@@ -64,7 +66,7 @@ function projects() {
               <p>Description of project 3 goes here</p>
         
               <div class="cover">
-                <img src={require('./images/checkers image.png')} alt="Cake image" />
+                {/* <img src="/images/checkers image.png" alt="Cake image" /> */}
               </div>
             </div> 
         </div>

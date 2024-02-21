@@ -16,9 +16,11 @@ function home() {
           <h3>Junior Software Developer</h3>
           <br />
 
+          <div className='profile-img'>
+            {/* <img src="/images/graduation 2.jfif" /> */}
+          </div>
+          <br />
           
-          <br />
-          <br />
 
           <div className="button-container">
             <a

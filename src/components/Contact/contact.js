@@ -1,4 +1,5 @@
 import React from 'react'
+import "./contact.css"
 
 function contact() {
   return (
@@ -18,7 +19,7 @@ function contact() {
       <div className="center">
         <div className="form-container">
           <div className="form-image">
-            <img src={require('./images/contact me form pic.png')} alt="Image Description" />
+            <img src="/images/contact me form pic.png" alt="Image Description" />
           </div>
 
           <form className="form">      
