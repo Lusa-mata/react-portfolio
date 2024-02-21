@@ -1,5 +1,7 @@
 import React from 'react'
+import "./home.css"
 
+ 
 function home() {
   return (
     <div>
@@ -14,9 +16,7 @@ function home() {
           <h3>Junior Software Developer</h3>
           <br />
 
-          <div className="profile-img">
-            <img src={require('./images/graduation 2.jfif')} alt="Lusaduma Graduation" height={"450"} />
-          </div>
+          
           <br />
           <br />
 

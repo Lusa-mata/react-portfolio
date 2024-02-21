@@ -5,9 +5,7 @@ function nav() {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-img">
-          <img src={require('./images/Me-removebg-preview.png')} alt="Lusaduma Graduation" />
-        </div>
+        
 
         <ul className="menu" id="menu">
           <li><a className="active" href="#"> Home</a></li>
