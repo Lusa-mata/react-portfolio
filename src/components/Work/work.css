@@ -13,23 +13,24 @@
   .icon {
     width: 80px;    
     height: 80px; 
-    margin-right: 4px; /* margin to control the space between the icon and the vertical line */
+    margin-left: 13px;
+    margin-right: 13px; /* margin to control the space between the icon and the vertical line */
   }
   
   .vertical-line {
     width: 3px;
-    height: 200px; /* total height of the cards and margins */
+    height: 250px; /* total height of the cards and margins */
     background-color: white;
   }
   
   .card-container {
     display: flex;
     flex-direction: column;
-    margin-left: 60px; /* Spacing between line and cards */
+    margin-left: 35px; /* Spacing between line and cards */
   }
   
   .card-experience-Motivity {
-    width: 800px;
+    width: 1065px;
     height: auto;
     color: white;
     background-color: #000235;
@@ -48,7 +49,7 @@
   }
   
   .card-experience-UVU {
-    width: 800px;
+    width: 1065px;
     height: auto;
     color: white;
     background-color: #000235;
@@ -65,7 +66,7 @@
   }
   
   .card-experience-ABSA {
-    width: 800px;
+    width: 1065px;
     height: auto;
     color: white;
     background-color: #000235;
