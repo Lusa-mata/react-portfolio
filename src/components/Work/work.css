@@ -91,96 +91,28 @@
   
   
   /*WORK EXPERIENCE RESPONSIVENESS*/
-  @media only screen and (max-width: 768px) {
-  
+  @media only screen and (max-width: 414px) {
     .container {
-      display: flex;
-      margin-left: 6px; /* Adjust this value to control the space between the line and cards */
-    }
-    
-    .line-and-logos {
-      display: flex;
       flex-direction: column;
-      align-items: center;
+      margin-left: 0;
     }
-    
+  
+    .line-and-logos {
+      align-items: center; /* Center icons in smaller screens */
+    }
+  
     .icon {
-      width: 40px;    
-      height: 40px; 
-      margin-right: 4px; /* margin to control the space between the icon and the vertical line */
+      margin: 10px 0; /* Adjusted margin for centering */
     }
-    
-    .vertical-line {
-      width: 2px;
-      height: 445px; 
-      background-color: white;
-    }
-    
+  
     .card-container {
-      margin-left: 5px; /* Spacing between line and cards */
+      margin-left: 0;
     }
-    
-    .card-experience-Motivity {
-      width: auto;
-      height: auto;
-      color: white;
-      background-color: #000235;
-      border-bottom: 2px solid #ff0000;
-      border-left: 2px solid #ff0000;
-      border-right: 2px solid #ff0000;
-      border-radius: 30px;
-      margin-right: 50px;
-    }
-    
-    .card-experience-Motivity:hover {
-      box-shadow: 0 0 5px #ff0000,
-                  0 0 10px #ff0000,
-                  0 0 15px #ff0000,
-                  0 0 20px #ff0000;
-    }
-    
-    .card-experience-UVU {
-      width: auto;
-      height: auto;
-      color: white;
-      background-color: #000235;
-      border-left: 2px solid orange;
-      border-right: 2px solid orange;
-      border-radius: 30px;
-      margin-bottom: 40px;
-      margin-right: 50px;
-      
-    }
-    
-    .card-experience-UVU:hover {
-      box-shadow: 0 0 5px orange,
-                  0 0 10px orange,
-                  0 0 15px orange,
-                  0 0 20px orange;
-    }
-    
+  
+    .card-experience-Motivity,
+    .card-experience-UVU,
     .card-experience-ABSA {
-      width: auto;
-      height: auto;
-      color: white;
-      background-color: #000235;
-      border-top: 2px solid #03f40f;
-      border-left: 2px solid #03f40f;
-      border-right: 2px solid #03f40f;
-      border-radius: 30px;
-      margin-bottom: 40px;
-      margin-right: 50px;
-    }  
-    
-    .card-experience-ABSA:hover {
-      box-shadow: 0 0 5px #03f40f,
-                  0 0 10px #03f40f,
-                  0 0 15px #03f40f,
-                  0 0 20px #03f40f;
+      width: 100%;
+      margin: 1px 0;
     }
-    
-    p {
-      font-size: 16px;
-      padding: 5px;
-    }
-}  
+  }
