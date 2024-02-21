@@ -125,47 +125,22 @@
 
   
   /*FORM RESPONSIVENESS*/
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 767px) {
   .form-container {
-    width: 100%;
-    border-radius: 30px;
-    background-color: #000235;
-    border: 2px solid white;
+    width: 90%;
     padding: 2rem;
-    color: rgba(243, 244, 246, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center; 
   }
   
-  .form-container:hover {
-    box-shadow: 0 0 5px #ffffff,
-                0 0 10px #ffffff,
-                0 0 15px #ffffff,
-                0 0 20px #ffffff;
-  }
-      
-  /*this is to make it display as a column*/
-  .form {
-    display: flex;
-    flex-direction: column;
-    width: 100%; 
-  }
+ 
       
   .form-image {
-    width: 50px; /* Adjust the width as needed */
+    width: 40px; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
     margin-right: 40px;
+    margin-left: -30px;
+    margin-top: -40px;
   }
-  
-  /*all the input fields are grouped*/
-  .input-group {
-    margin-top: 0.15rem;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    display: flex;
-    flex-direction: column; /* Display input and label in a column */
-  }
+
   
   /*input field labels*/
   .input-group label { 
@@ -178,7 +153,7 @@
   /*input field styling*/
   .input-group input, 
   .input-group textarea {
-    width: 50%;
+    width: 62%;
     border-radius: 10px;
     border: 1px solid white;
     background-color: #000220;
