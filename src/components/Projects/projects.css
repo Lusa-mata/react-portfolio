@@ -1,0 +1,275 @@
+/* Container for cards */
+.cards-container-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .card-project1 {
+    width: 30%;
+    height: auto;
+    color: white;
+    background-color: #000235;
+    border-top: 2px solid#ff0000;
+    border-left: 2px solid#ff0000;
+    border-bottom: 2px solid#ff0000;
+    border-radius: 30px;
+    margin: auto;
+  }
+  
+  .download-project-1 {
+    display: block;
+    width: 50%;
+    background-color: rgb(81, 255, 0);
+    padding: 10px 20px;
+    text-align: center;
+    color: rgba(17, 24, 39, 1);
+    border: 1px solid #03f40f;
+    background: linear-gradient(#fff,#40c9ff);
+    border-radius: 30px;
+    font-weight: 600; /*makes the text bold*/
+    cursor: pointer;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  
+  .download-project-1:hover {
+  background: #03f40f;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03f40f,
+                0 0 25px #03f40f,
+                0 0 50px #03f40f,
+                0 0 100px #03f40f;
+  }
+  
+  
+  .card-project2 {
+    width: 30%;
+    height: auto;
+    color: white;
+    background-color: #000235;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    border-radius: 30px;
+    margin: auto;
+  }
+  
+  .view-project-2 {
+    display: block;
+    width: 50%;
+    background-color: rgb(81, 255, 0);
+    padding: 10px 20px;
+    text-align: center;
+    color: rgba(17, 24, 39, 1);
+    border: 1px solid orange;
+    background: linear-gradient(#fff,#40c9ff);
+    border-radius: 30px;
+    font-weight: 600; /*makes the text bold*/
+    cursor: pointer;
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+  
+  .view-project-2:hover {
+    background: orange;
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px orange,
+                  0 0 25px orange,
+                  0 0 50px orange,
+                  0 0 100px orange;
+    }
+  
+  .download-project-2 {
+    display: block;
+    width: 50%;
+    background-color: rgb(81, 255, 0);
+    padding: 10px 20px;
+    text-align: center;
+    color: rgba(17, 24, 39, 1);
+    border: 1px solid #03f40f;
+    background: linear-gradient(#fff,#40c9ff);
+    border-radius: 30px;
+    font-weight: 600; /*makes the text bold*/
+    cursor: pointer;
+    margin-left: 90px;
+  
+    margin-bottom: 15px;
+  }
+  
+  .download-project-2:hover {
+    background: #03f40f;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03f40f,
+                0 0 25px #03f40f,
+                0 0 50px #03f40f,
+                0 0 100px #03f40f;
+  }
+  
+  
+  .card-project3 {
+    width: 30%;
+    height: auto;
+    color: white;
+    background-color: #000235;
+    border-top: 2px solid #03f40f;
+    border-right: 2px solid #03f40f;
+    border-bottom: 2px solid #03f40f;
+    border-radius: 30px;
+    margin: auto;
+  }
+  
+  .download-project-3 {
+    display: block;
+    width: 50%;
+    background-color: rgb(81, 255, 0);
+    padding: 10px 20px;
+    text-align: center;
+    color: rgba(17, 24, 39, 1);
+    border: 1px solid #03f40f;
+    background: linear-gradient(#fff,#40c9ff);
+    border-radius: 30px;
+    font-weight: 600; /*makes the text bold*/
+    cursor: pointer;
+    
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  
+  .download-project-3:hover {
+    background: #03f40f;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03f40f,
+                0 0 25px #03f40f,
+                0 0 50px #03f40f,
+                0 0 100px #03f40f;
+  }
+  
+  .card-more {
+    width: 350px;
+    height: 100px;
+    color: white;
+    background-color: #000235;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    margin-top: 40px;
+  }
+  
+  
+  #checkbox {
+    display: none;
+  }
+  
+  .switch {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(99, 99, 99);
+    border-radius: 50%;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(126, 126, 126);
+    box-shadow: 0px 0px 3px rgb(2, 2, 2) inset;
+  }
+  .switch svg {
+    width: 1.2em;
+  }
+  .switch svg path {
+    fill: rgb(48, 48, 48);
+  }
+  #checkbox:checked + .switch {
+    box-shadow: 0px 0px 1px rgb(151, 243, 255) inset,
+      0px 0px 2px rgb(151, 243, 255) inset, 0px 0px 10px rgb(151, 243, 255) inset,
+      0px 0px 40px rgb(151, 243, 255), 0px 0px 100px rgb(151, 243, 255),
+      0px 0px 5px rgb(151, 243, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(146, 180, 184);
+  }
+  #checkbox:checked + .switch svg {
+    filter: drop-shadow(0px 0px 5px rgb(151, 243, 255));
+  }
+  #checkbox:checked + .switch svg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .book {
+    position: relative ;
+    width: 300px;
+    height: 450px;
+    background-color: #000235;
+    border: 2px solid #ffffff;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  
+    
+  }
+  
+  .book:hover {
+    box-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 15px #ffffff,
+                0 0 20px #ffffff;
+  }
+  
+  
+  .cover {
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+    
+  }
+  
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-86deg);
+    -ms-transform: rotatey(-86deg);
+    transform: rotatey(-86deg);
+    
+  }
+  
+  p {
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+    justify-content:center ;
+  }
+  
+  
+  .book .cover img {
+    width: 300px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+  }

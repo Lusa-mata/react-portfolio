@@ -1,0 +1,100 @@
+/* Container for cards for ABOUT ME */
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  /* card for overview */
+  .card-Overview {
+    display: flex;
+    width: 45%;
+    color: white;
+    background-color: #000235;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 16px;
+    
+  }
+  
+  /* card for image in overview */
+  .card-Overview img {
+    width: 250px;
+    height: 350px;
+  }
+  
+  .card-Overview:hover {
+    box-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 15px #ffffff,
+                0 0 20px #ffffff;
+  }
+  
+  
+  
+  /*card for skills*/
+  .card-Skills {
+  width: 45%;
+  height: 350px;
+  color: white;
+  background-color: #000235;
+  border: 2px solid#fff;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 50px;
+  }
+  
+  .card-Skills:hover{
+    box-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 15px #ffffff,
+                0 0 20px #ffffff;
+  }
+  
+  .skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  }
+  
+  .skill-name {
+  width: 120px;
+  font-size: 16px;
+  margin-left: 10px;
+  }
+  
+  .skill-level {
+  width: 100%;
+  height: 16px;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 20px;
+  }
+  
+  .skill-percent {
+  background: linear-gradient(#40c9ff,rgb(111, 0, 255)) ;
+  height: 100%;
+  }
+  
+  .skill-percent-number {
+  margin-left: 20px;
+  font-size: 16px;
+  }  
+  
+  
+  /*OVERVIEW RESPONSIVENESS*/
+  @media only screen and (max-width: 768px) {
+    .card-Overview {
+      width: 80%; /* Adjust the width for smaller screens */
+      flex-direction: column; /* Stack the image and text vertically */
+    }
+  
+    .card-Overview img {
+      width: 100%; /* Make the image fill the container width */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }

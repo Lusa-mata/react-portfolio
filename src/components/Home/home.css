@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000118;
+    color: white;
+  }
+  
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .home-container {
+    width: 700px;
+    border-radius: 0.75rem; 
+    background-color: #000235;
+    border: 2px solid white;
+    color: rgba(243, 244, 246, 1);
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .home-container:hover {
+    box-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 15px #ffffff,
+                0 0 20px #ffffff;
+  }
+  
+  
+  
+  /*heading and line transition starts below*/
+  .heading {
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .text {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .text::before {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Position the line just below the text */
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: rgb(255, 0, 0); /*line color */
+    transition: width 1s ease-in-out;
+  }
+  
+  .text:hover::before, .text:focus::before {
+    width: 100%; /* Line animation to cover the text */
+  }
+  
+  @keyframes moveLine {
+    0% {
+        width: 100%;
+        left: 0;
+    }
+  
+    50% {
+        width: 0; /* Line animation back to start */
+        left: 50%;
+    }
+  
+    100% {
+        width: 100%; /* Line animation to cover the text again */
+        left: 0;
+        }
+  }
+  
+  .text.autoplay::before {
+    animation: moveLine 3s infinite; /* duration of the animation */
+  }
+  
+  
+  /* Styling for homepage image */
+  .profile-img {
+    border-radius: 30px;
+  }
+  
+  
+  /*download my CV button*/
+  .download-button {
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    box-sizing: border-box;  
+  }
