@@ -115,28 +115,5 @@
 
 
 
-/* Larger devices- MacBook Air */
-@media screen and (min-width: 1024px) {
-  .cards-container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
 
-  .card-Overview,
-  .card-Skills {
-    width: 45%;
-    margin-top: 30px;
-  }
-
-  .card-Overview img {
-    width: 250px;
-    height: 350px;
-    order: initial; /* Reset the order property */
-  }
-
-  .card-Overview p {
-    font-size: 16px;
-    margin-top: 10%; /* Reset the margin */
-  }
-}
 
