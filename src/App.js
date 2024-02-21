@@ -1,31 +1,11 @@
 import React from 'react';
 import './App.css';
+import nav from './components/Navigation/nav'
+import './components/Navigation/nav.css'
 
 function App() {
   return (
     <div className="App">
-
-      {/*NAVIGATION BAR section*/}
-      <nav className="navbar">
-        <div className="navbar-img">
-          <img src={require('./images/Me-removebg-preview.png')} alt="Lusaduma Graduation" />
-        </div>
-
-        <ul className="menu" id="menu">
-          <li><a className="active" href="#"> Home</a></li>
-          <li><a href="#about_me">About Me</a></li>
-          <li><a href="#work_experience">Work Experience</a></li>
-          <li><a href="#projects_completed">Projects</a></li>
-          <li><a href="#contact_me"> Contact Me</a></li>    
-        </ul>
-
-        <div className="menu-icon" id="menu-icon">
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
-        </div>
-      </nav>
-
 
       {/*HOMEPAGE section*/}
       <div className="center">
@@ -520,7 +500,7 @@ function App() {
 
     
 
-
+    <nav/>
 
 
 </div>
