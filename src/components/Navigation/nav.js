@@ -1,31 +1,30 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './nav.css';
+import React from 'react'
+import "./nav.css"
 
 function Nav() {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-img">
-          <img src="/images/Me-removebg-preview.png" alt="logo pic" />
+        <div className=".navbar-img">
+          <img src="/images/Me-removebg-preview.png" />
         </div>
 
         <ul className="menu" id="menu">
-          <li><Link to="/" className="active">Home</Link></li>
-          <li><Link to="/about_me">About Me</Link></li>
-          <li><Link to="/work_experience">Work Experience</Link></li>
-          <li><Link to="/projects_completed">Projects</Link></li>
-          <li><Link to="/contact_me">Contact Me</Link></li>
+          <li><a className="active" href="#"> Home</a></li>
+          <li><a href="#about_me">About Me</a></li>
+          <li><a href="#work_experience">Work Experience</a></li>
+          <li><a href="#projects_completed">Projects</a></li>
+          <li><a href="#contact_me"> Contact Me</a></li>    
         </ul>
 
         <div className="menu-icon" id="menu-icon">
-          <div className="bar" role="presentation"></div>
-          <div className="bar" role="presentation"></div>
-          <div className="bar" role="presentation"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
         </div>
       </nav>
     </div>
-  );
+  )
 }
 
-export default Nav;
+export default Nav
