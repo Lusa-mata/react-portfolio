@@ -23,6 +23,8 @@ body {
     color: rgba(243, 244, 246, 1);
     text-align: center;
     height: 800px;
+    margin-top: 150px;
+    margin-bottom: 150px;
   }
 
   /* Styling for homepage image */

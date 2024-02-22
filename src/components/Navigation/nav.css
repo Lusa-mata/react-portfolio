@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   background-image: linear-gradient(rgb(111, 0, 255), #000118);
-  padding: 10px 20px;
+  padding: 10px 10px;
   }
   
 
@@ -44,11 +44,18 @@
   }
   
   .menu a.active {
-    outline: 3px solid rgb(30, 255, 0);
-    outline-offset: -3px; /* Adjust the offset for the outline */
+    box-shadow: 0 0 5px rgb(30, 255, 0),
+                0 0 10px rgb(30, 255, 0),
+                0 0 15px rgb(30, 255, 0),
+                0 0 20px rgb(30, 255, 0);
     color:white;
     border-radius: 10px;    
   }
+
+
+
+
+  
   
   .menu a:hover{
     outline: 3px solid rgb(60, 210, 255);
