@@ -15,17 +15,6 @@ body {
     
   }
   
-  .home-container {
-    width: 800px;
-    border-radius: 0.75rem; 
-    background-color: #000235;
-    border: 2px solid white;
-    color: rgba(243, 244, 246, 1);
-    text-align: center;
-    height: 800px;
-    margin-top: 220px;
-    margin-bottom: 150px;
-  }
 
   /* Styling for homepage image */
   .profile-img img {
