@@ -22,7 +22,7 @@ function projects() {
           
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div class="book">
-              <p>Description of project 1 goes here</p>
+              <p>This bakery website consists of a chatbot, booking event page that allows you to make a booking for the upcoming event</p>
         
               <div class="cover">
                 <img src="/images/ikhekhe.jpg" alt="Cake image" />
