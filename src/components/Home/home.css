@@ -25,12 +25,6 @@ body {
 }
 
 
-
-
-
-
-
-  
   .home-container:hover {
     box-shadow: 0 0 5px #ffffff,
                 0 0 10px #ffffff,
@@ -38,8 +32,7 @@ body {
                 0 0 20px #ffffff;
   }
   
-  
-  
+
   /*heading and line transition starts below*/
   .heading {
     position: relative;
