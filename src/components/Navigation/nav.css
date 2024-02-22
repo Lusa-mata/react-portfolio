@@ -1,9 +1,14 @@
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: linear-gradient(rgb(111, 0, 255),#000118);
-    padding: 10px 20px; 
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; /* Adjust the z-index value as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(rgb(111, 0, 255), #000118);
+  padding: 10px 20px;
   }
   
 
