@@ -13,7 +13,7 @@ function home() {
             </h1>
           </section>
 
-          <h3>Junior Software Developer</h3>
+          <h2>Junior Software Developer</h2>
           <br />
 
           <div className='profile-img'>

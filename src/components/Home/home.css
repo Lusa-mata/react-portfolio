@@ -22,7 +22,7 @@ body {
     border: 2px solid white;
     color: rgba(243, 244, 246, 1);
     text-align: center;
-    height: 1000px;
+    height: 800px;
   }
 
   /* Styling for homepage image */
@@ -32,6 +32,12 @@ body {
     border-radius: 50%;
     border: 4px solid white;
 }
+
+
+
+
+
+
 
   
   .home-container:hover {
