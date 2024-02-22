@@ -133,17 +133,15 @@
   /*FORM RESPONSIVENESS*/
   @media only screen and (max-width: 767px) {
   .form-container {
-    width: 90%;
-    padding: 2rem;
+    width: 80%;
   }
   
- 
-      
+
   .form-image {
     width: 40px; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
     margin-right: 40px;
-    margin-left: -30px;
+    margin-left: -10px;
     margin-top: -40px;
   }
 
@@ -159,7 +157,7 @@
   /*input field styling*/
   .input-group input, 
   .input-group textarea {
-    width: 62%;
+    width: 68%;
     border-radius: 10px;
     border: 1px solid white;
     background-color: #000220;
@@ -176,7 +174,7 @@
     
   .submit {
     display: block;
-    width: 60%;
+    width: 300px;
     background-color: rgb(81, 255, 0);
     padding: 10px 20px;
     text-align: center;
@@ -187,6 +185,7 @@
     font-weight: 600; /*makes the text bold*/
     cursor: pointer;
     margin-left: 100px;
+    align-items: center;
   }
   
   
@@ -203,7 +202,7 @@
   
   .clear {
     display: block;
-    width: 60%;
+    width: 300px;
     background: linear-gradient(#fff,#40c9ff);
     padding: 0.75rem;
     text-align: center;
