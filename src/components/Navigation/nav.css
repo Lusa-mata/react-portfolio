@@ -2,20 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(rgb(111, 0, 255),#000118);
+    background-image: linear-gradient(#000235,#000118);
     padding: 10px 20px; 
   }
   
-  /* Image for navigation bar*/
-  /* Image for navigation bar */
-.navbar-img img {
-  height: 40px; /* Adjust the height as needed */
-  width: auto; /* This ensures that the width adjusts proportionally */
-   /* Ensures the image doesn't exceed its container */
-}
 
-  
-  /* Style for the navigation menu*/
+/* Styling for the navigation menu*/
   .menu {
     list-style: none;
     display: flex;
