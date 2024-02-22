@@ -59,11 +59,13 @@ function Contact() {
             <br />
             <br />
 
+            <div className="reCAPTCHA">
             {/* reCAPTCHA */}
             <ReCAPTCHA
               sitekey="6Lcq53opAAAAAP3aommd_71NaaVf_4z2tHvWL52a" // Replace with your reCAPTCHA site key
               onChange={(value) => console.log("reCAPTCHA value:", value)}
             />
+            </div>
 
             {/* submit and reset buttons below */}
             <button type="submit" className="submit">

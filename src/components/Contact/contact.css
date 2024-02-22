@@ -230,3 +230,11 @@
   background-image: linear-gradient(#000118,rgb(111, 0, 255));
   padding: 10px 20px; 
 }
+
+
+
+.reCAPTCHA {
+  margin-bottom: 30px;
+  margin-left: 100px;
+  width:90%;
+}
