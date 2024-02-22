@@ -5,9 +5,7 @@ function Nav() {
   return (
     <div>
       <nav className="navbar">
-        <div className=".navbar-img">
-          <img src="/images/Me-removebg-preview.png" />
-        </div>
+          <img src="/images/Me-removebg-preview.png" height={100}/>
 
         <ul className="menu" id="menu">
           <li><a className="active" href="#"> Home</a></li>

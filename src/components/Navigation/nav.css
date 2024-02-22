@@ -7,10 +7,13 @@
   }
   
   /* Image for navigation bar*/
-  .navbar-img img{
-    height: 100%; 
-    width: 38%;
-  }
+  /* Image for navigation bar */
+.navbar-img img {
+  height: 40px; /* Adjust the height as needed */
+  width: auto; /* This ensures that the width adjusts proportionally */
+   /* Ensures the image doesn't exceed its container */
+}
+
   
   /* Style for the navigation menu*/
   .menu {
@@ -59,7 +62,7 @@
   
   
   /* For screens up to 900px width */
-  @media (max-width: 797px) {
+  /* @media (max-width: 797px) {
     .menu-icon {
         display: flex;
     }
@@ -94,12 +97,16 @@
       width: 20%;
       height: 10%;
     }
-  }
+  } */
   
   
   /*Everything below is for when browser window is resized*/
-  /* Style for the burger icon*/
   
+  
+  
+  
+  
+  /* Style for the burger icon*/
   .bar {
     width: 25px;
     height: 3px;
