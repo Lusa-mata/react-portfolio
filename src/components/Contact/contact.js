@@ -1,13 +1,32 @@
+import emailjs from "emailjs-com"
 import React from 'react';
 import ReCAPTCHA from "react-google-recaptcha";
 import "./contact.css";
 
 function Contact() {
+
+
+
   const handleFormSubmit = (event) => {
-    // Handle form submission logic here
+  
     event.preventDefault();
-    // Add your logic to handle form submission, such as sending data to the server
-  };
+      emailjs
+      .sendForm(
+        'service_0q3rup5', 
+        'template_so7jq7c', 
+        event.target, 
+        '8Xp4ega8iy0SOx0Vr',
+      )
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        }
+      );
+      
+  }
 
   return (
     <div>
