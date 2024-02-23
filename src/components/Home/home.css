@@ -33,6 +33,7 @@ body {
 }
 
   
+  
 
   /*heading and line transition starts below*/
   .heading {
@@ -106,25 +107,34 @@ body {
     white-space: nowrap;
     box-sizing: border-box;  
     align-items: center;
+    margin-left: 35%;
   }
 
-  .button-container{
-    margin-left: 170px;
-    margin-top: 20px;
-  }
+  
+
+
+
+
+
+
 
 
 
   @media only screen and (max-width: 767px) {
-  .home-container {
-      width: 90%; /* Adjust the width for smaller screens */
-      height: auto; /* Allow the height to be determined by content */
-      margin-top: 16px;
+ 
+  .profile-img img {
+      max-width: 90%; 
+      height: auto; 
+      margin-left: 18px;
   }
 
-  .profile-img img {
-      max-width: 90%; /* Make the image responsive within its container */
-      height: auto; /* Allow the height to adjust proportionally */
+  .button-container{
+    margin-left: 30%;
+    margin-top: 20px;
+  }
+
+  h3 {
+    margin-left: 21%;
   }
   
-    }
+}

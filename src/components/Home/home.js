@@ -20,7 +20,17 @@ function home() {
             <img src="/images/graduation 2.jfif" />
           </div>
           <br />
+          <br />
           
+          <img
+        src="/images/github icon.png"
+        alt="GitHub Icon"
+        style={{ width: '100px', height: '100px' }}
+        />
+          
+          <br />
+          <br />
+          <br />
 
           <div className="button-container">
             <a
