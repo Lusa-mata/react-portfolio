@@ -177,6 +177,22 @@
     border: 2px solid rgb(126, 126, 126);
     box-shadow: 0px 0px 3px rgb(2, 2, 2) inset;
   }
+
+  .switch:hover {
+    box-shadow: 0px 0px 1px rgb(151, 243, 255) inset,
+      0px 0px 2px rgb(151, 243, 255) inset, 0px 0px 10px rgb(151, 243, 255) inset,
+      0px 0px 40px rgb(151, 243, 255), 0px 0px 100px rgb(151, 243, 255),
+      0px 0px 5px rgb(151, 243, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(146, 180, 184);
+    fill: rgb(255, 255, 255);
+
+
+
+  }
+
+
+
   .switch svg {
     width: 1.2em;
   }
