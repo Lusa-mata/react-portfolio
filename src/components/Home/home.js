@@ -6,7 +6,7 @@ function home() {
     const githubLink = "https://github.com/Lusa-mata"; // Replace with your GitHub profile link
     const linkedinLink = "https://www.linkedin.com/in/lusaduma-ok-mata/"; // Replace with your LinkedIn profile link
 
-
+    
 
   return (
     <div>
