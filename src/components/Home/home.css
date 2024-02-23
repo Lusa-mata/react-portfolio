@@ -15,11 +15,13 @@ body {
     
   }
 
-  h2 {
-    margin-left: 100px;
+  h3 {
+    margin-left: 135px;
   }
 
-
+  h1 {
+    margin-top: 50px;
+  }
   
 
   /* Styling for homepage image */
