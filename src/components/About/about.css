@@ -96,18 +96,20 @@
 
   .card-Overview,
   .card-Skills {
-      width: 100%;
+      width: 90%;
       margin-top: 20px;
   }
 
   .card-Overview img {
       width: 45%; /* Set the image width to 100% for responsiveness */
       height: 400px; /* Maintain the aspect ratio */
+      margin-top: 20px;
       order: -1; /* Move the image above the paragraph */
   }
 
   .card-Overview p {
-      font-size: 15px;
+      font-size: 16px;
+      margin-right: 3px;
       margin-top: 10px; /* Add some space between the image and the paragraph */
   }
 }
