@@ -47,7 +47,11 @@ function projects() {
 
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div class="book">
-              <p>Description of project 2 goes here</p>
+              <p>This is my old portfolio that I was working on during my time at CapaCiTi. <br></br><br></br> It enabled me to learn more 
+                about coding standards and best practices used when coding. <br></br><br></br>It showcases my skills and projects that I have 
+                done to date. There is a newer version called "React Portfolio" on my GitHub repositories. Click on the card 
+                below to view it
+              </p>
               
               <div class="cover">
                 <img src="/images/old portfolio.png" alt="Old portfolio image" />
@@ -68,7 +72,11 @@ function projects() {
           
         <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div class="book">
-              <p>Description of project 3 goes here</p>
+              <p>This is one of the games that we had created during our time at CapaCiTi. <br></br><br></br>
+                We worked on the project together as a team. 
+                <br></br><br></br>
+                The game is a 2 player version of checkers which enables you to play with 
+                your friend at the leisure of your time</p>
         
               <div class="cover">
                 <img src="/images/checkers image.png" alt="Checkers game image" />
