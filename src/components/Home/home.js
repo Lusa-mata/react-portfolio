@@ -27,7 +27,8 @@ function home() {
           <br />
           <br />
           
-          <div>
+          <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+          <div style={{ marginRight: '-400px', marginLeft: '20px' }}>
             <a href={githubLink} target="_blank" rel="noopener noreferrer">
               <img
                 src="/images/github icon.png"
@@ -43,9 +44,10 @@ function home() {
               <img
                 src="/images/linkedin icon.png"
                 alt="GitHub Icon"
-                style={{ width: '130px', height: '130px' }}
+                style={{ width: '130px', height: '130px', marginTop: '-15px', marginLeft: '-100px' }}
               />
             </a>
+          </div>
           </div>
           
           
