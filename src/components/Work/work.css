@@ -111,13 +111,14 @@ h1 {
     }
   
     .card-container {
-      margin-left: 0;
+      margin-left: 10;
     }
   
     .card-experience-Motivity,
     .card-experience-UVU,
     .card-experience-ABSA {
-      width: 100%;
-      margin: 1px 0;
+      width: 90%;
+      margin-top: -140px;
+      
     }
   }
