@@ -19,9 +19,15 @@ function Contact() {
       )
       .then(
         () => {
-          console.log('SUCCESS!');
+          // Displays alertbox on success
+          window.alert('Form submitted successfully!');
+
+          // Reset the form
+          event.target.reset();
         },
         (error) => {
+          // Display alertbox on failure
+          window.alert('Form submission failed. Please try again later.');
           console.log('FAILED...', error.text);
         }
       );
