@@ -24,6 +24,8 @@
   .card-Overview img {
     width: 250px;
     height: 350px;
+    margin-top: 17px;
+    margin-left: 10px;
   }
   
   .card-Overview:hover {
@@ -33,18 +35,17 @@
                 0 0 20px #ffffff;
   }
   
-  
-  
   /*card for skills*/
   .card-Skills {
   width: 45%;
-  height: 350px;
+  height: 390px;
   color: white;
   background-color: #000235;
   border: 2px solid#fff;
   border-radius: 30px;
   margin: auto;
   margin-top: 50px;
+  
   }
   
   .card-Skills:hover{
@@ -64,6 +65,8 @@
   width: 120px;
   font-size: 16px;
   margin-left: 10px;
+  font-weight: 600;
+  margin-bottom: 9px;
   }
   
   .skill-level {
@@ -73,6 +76,7 @@
   border-radius: 10px;
   overflow: hidden;
   margin-left: 20px;
+  margin-bottom: 9px;
   }
   
   .skill-percent {
@@ -83,6 +87,7 @@
   .skill-percent-number {
   margin-left: 20px;
   font-size: 16px;
+  margin-bottom: 9px;
   }  
   
   
