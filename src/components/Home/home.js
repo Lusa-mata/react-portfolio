@@ -57,7 +57,7 @@ function home() {
 
           <div className="button-container">
             <a
-              href="CV/Lusaduma Mata CV Updated.docx"
+              href="/documents/Lusaduma Mata CV Updated.docx"
               className="download-button"
               download
             >
