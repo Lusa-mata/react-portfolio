@@ -12,7 +12,7 @@ function home() {
               <span className="text autoplay"> LUSADUMA MATA </span>
             </h1>
           </section>
-
+          
           <h2>Junior Software Developer</h2>
           <br />
 

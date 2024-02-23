@@ -14,6 +14,12 @@ body {
     justify-content: center;
     
   }
+
+  h2 {
+    margin-left: 100px;
+  }
+
+
   
 
   /* Styling for homepage image */
@@ -24,13 +30,6 @@ body {
     border: 4px solid white;
 }
 
-
-  .home-container:hover {
-    box-shadow: 0 0 5px #ffffff,
-                0 0 10px #ffffff,
-                0 0 15px #ffffff,
-                0 0 20px #ffffff;
-  }
   
 
   /*heading and line transition starts below*/
@@ -43,6 +42,7 @@ body {
   .text {
     display: inline-block;
     position: relative;
+    
   }
   
   .text::before {
@@ -93,16 +93,23 @@ body {
     padding: 10px 20px;
     border-radius: 30px;
     cursor: pointer;
-    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 15px #ffffff,
+                0 0 20px #ffffff;
     text-decoration: none;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
     white-space: nowrap;
     box-sizing: border-box;  
+    align-items: center;
   }
 
-
+  .button-container{
+    margin-left: 170px;
+    margin-top: 20px;
+  }
 
 
 
