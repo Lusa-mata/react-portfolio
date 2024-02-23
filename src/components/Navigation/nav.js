@@ -1,36 +1,63 @@
-import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
-import "./nav.css";
+import React, { useState } from 'react';
+import { Link } from 'react-scroll';
+import './nav.css';
 
 function Nav() {
+  const [isMenuOpen, setMenuOpen] = useState(false);
 
+  const handleMenuToggle = () => {
+    setMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <div>
       <nav className="navbar">
-        <img src="/images/Me-removebg-preview.png" height={100} />
+        <img src="/images/Me-removebg-preview.png" height={100} alt="Your Alt Text Here" />
 
-        <ul className="menu" id="menu">
-          <li><Link activeClass="active" to="lusaduma-mata" spy={true} smooth={true} offset={-70} duration={500}>Home</Link></li>
-          <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>About Me</Link></li>
-          <li><Link activeClass="active" to="work" spy={true} smooth={true} offset={-70} duration={500}>Work Experience</Link></li>
-          <li><Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link></li>
-          <li><Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact Me</Link></li>
-        </ul>
-
-        <div className="menu-icon" id="menu-icon">
+        {/* Responsive menu */}
+        <div className="menu-icon" id="menu-icon" onClick={handleMenuToggle} aria-expanded={isMenuOpen}>
           <div className="bar"></div>
           <div className="bar"></div>
           <div className="bar"></div>
         </div>
+
+        {/* Conditionally render the menu items */}
+        {isMenuOpen && (
+          <ul className={`menu-items ${isMenuOpen ? 'open' : ''}`}>
+            <li>
+              <Link to="lusaduma-mata" spy smooth offset={-70} duration={500} onClick={closeMenu}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="about" spy smooth offset={-70} duration={500} onClick={closeMenu}>
+                About Me
+              </Link>
+            </li>
+            <li>
+              <Link to="work" spy smooth offset={-70} duration={500} onClick={closeMenu}>
+                Work Experience
+              </Link>
+            </li>
+            <li>
+              <Link to="projects" spy smooth offset={-70} duration={500} onClick={closeMenu}>
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link to="contact" spy smooth offset={-70} duration={500} onClick={closeMenu}>
+                Contact Me
+              </Link>
+            </li>
+          </ul>
+        )}
       </nav>
     </div>
   );
 }
-
-
-
-
-
 
 export default Nav;
