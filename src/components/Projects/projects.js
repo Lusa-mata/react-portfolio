@@ -4,7 +4,9 @@ import "./projects.css"
 
 function projects() {
   const githubRepo = "https://github.com/Lusa-mata?tab=repositories"; // Replace with your LinkedIn profile link
-
+  const Project1Link = "https://github.com/Lusa-mata/Bakery-website";
+  const Project2Link = "https://github.com/Lusa-mata/My-Portfolio";
+  const Project3Link = "https://github.com/Lusa-mata/Checkers-game";
 
 
 
@@ -34,9 +36,13 @@ function projects() {
               </div>
             </div> 
           </div>
+          
+          
+          <a href={Project1Link} target="_blank" rel="noopener noreferrer">
           <div className="center">
-          <button className="download-project-1">Download on GitHub</button>
+              <button className="download-project-1">Download on GitHub</button>
           </div>
+          </a>
         </div>
       
 
@@ -60,7 +66,10 @@ function projects() {
           </div>
           
           <button className="view-project-2">View Demo</button><br></br>
+
+          <a href={Project2Link} target="_blank" rel="noopener noreferrer">
           <button className="download-project-2">Download on GitHub</button>
+          </a>
           
         </div>
 
@@ -83,9 +92,16 @@ function projects() {
               </div>
             </div> 
         </div>
+        
+        
+        <a href={Project3Link} target="_blank" rel="noopener noreferrer">
         <div className="center">
-          <button className="download-project-3">Download on GitHub</button></div>
+          <button className="download-project-3">Download on GitHub</button>
+          </div>
+          </a>
         </div>
+          
+        
       </div>
 
 
