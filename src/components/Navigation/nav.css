@@ -66,8 +66,6 @@
     background-color: white;
     margin: 3px 0;
     cursor: pointer;
-    margin-right: 30px;
-    font-weight: 600px;
   }
   
 
@@ -139,7 +137,7 @@
           left: 0;
           width: 100%;
           background-image: linear-gradient(black,rgb(111, 0, 255));
-          z-index: 998;
+          z-index: 1;
           padding: 10px 0;
       }
     
@@ -147,7 +145,7 @@
           display: flex;
       }
     
-      .menu ul li {
+      .menu li {
           margin: 0;
           padding: 15px 20px;
           text-align: center;
@@ -158,12 +156,3 @@
       }
     }
   
-
-
-
-
-
-
-
-
-    
