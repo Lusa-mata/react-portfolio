@@ -31,6 +31,7 @@
     cursor: pointer;
     margin-top: 45px;
     margin-bottom: 45px;
+    text-decoration: none;
   }
   
   .download-project-1:hover {
@@ -94,8 +95,8 @@
     font-weight: 600; /*makes the text bold*/
     cursor: pointer;
     margin-left: 100px;
-  
     margin-bottom: 15px;
+    text-decoration: none;
   }
   
   .download-project-2:hover {
@@ -133,6 +134,7 @@
     border-radius: 30px;
     font-weight: 600; /*makes the text bold*/
     cursor: pointer;
+    text-decoration: none;
     
     margin-top: 45px;
     margin-bottom: 45px;

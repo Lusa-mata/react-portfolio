@@ -7,7 +7,7 @@ function projects() {
   const Project1Link = "https://github.com/Lusa-mata/Bakery-website";
   const Project2Link = "https://github.com/Lusa-mata/My-Portfolio";
   const Project3Link = "https://github.com/Lusa-mata/Checkers-game";
-
+  const ViewProject2Link = "https://lusaduma.netlify.app/";
 
 
   return (
@@ -65,7 +65,9 @@ function projects() {
             </div> 
           </div>
           
+          <a href={ViewProject2Link} target="_blank" rel="noopener noreferrer">
           <button className="view-project-2">View Demo</button><br></br>
+          </a>
 
           <a href={Project2Link} target="_blank" rel="noopener noreferrer">
           <button className="download-project-2">Download on GitHub</button>
