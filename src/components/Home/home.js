@@ -32,8 +32,8 @@ function home() {
             <a href={githubLink} target="_blank" rel="noopener noreferrer">
               <img
                 src="/images/github icon.png"
-                alt="GitHub Icon"
-                style={{ width: '100px', height: '100px' }}
+                alt="github Icon"
+                class="github-icon"
               />
             </a>
           </div>
@@ -41,11 +41,11 @@ function home() {
           <br></br>
           <div>
             <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
-              <img
-                src="/images/linkedin icon.png"
-                alt="GitHub Icon"
-                style={{ width: '130px', height: '130px', marginTop: '-15px', marginLeft: '-100px' }}
-              />
+            <img
+    src="/images/linkedin icon.png"
+    alt="LinkedIn Icon"
+    class="linkedin-icon"
+  />
             </a>
           </div>
           </div>
