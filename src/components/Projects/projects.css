@@ -67,7 +67,7 @@
     border-radius: 30px;
     font-weight: 600; /*makes the text bold*/
     cursor: pointer;
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: 20px;
   }
   
@@ -93,7 +93,7 @@
     border-radius: 30px;
     font-weight: 600; /*makes the text bold*/
     cursor: pointer;
-    margin-left: 90px;
+    margin-left: 100px;
   
     margin-bottom: 15px;
   }
@@ -214,17 +214,7 @@
     fill: rgb(255, 255, 255);
   }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
   .book {
     position: relative ;

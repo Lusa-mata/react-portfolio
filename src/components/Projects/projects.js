@@ -35,7 +35,7 @@ function projects() {
             </div> 
           </div>
           <div className="center">
-          <button className="download-project-1">Download project</button>
+          <button className="download-project-1">Download on GitHub</button>
           </div>
         </div>
       
@@ -50,13 +50,13 @@ function projects() {
               <p>Description of project 2 goes here</p>
               
               <div class="cover">
-                <img src="/images/old portfolio.png" alt="Cake image" />
+                <img src="/images/old portfolio.png" alt="Old portfolio image" />
               </div>
             </div> 
           </div>
           
           <button className="view-project-2">View Demo</button><br></br>
-          <button className="download-project-2">Download project</button>
+          <button className="download-project-2">Download on GitHub</button>
           
         </div>
 
@@ -71,12 +71,12 @@ function projects() {
               <p>Description of project 3 goes here</p>
         
               <div class="cover">
-                <img src="/images/checkers image.png" alt="Cake image" />
+                <img src="/images/checkers image.png" alt="Checkers game image" />
               </div>
             </div> 
         </div>
         <div className="center">
-          <button className="download-project-3">Download project</button></div>
+          <button className="download-project-3">Download on GitHub</button></div>
         </div>
       </div>
 
