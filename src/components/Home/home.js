@@ -3,6 +3,11 @@ import "./home.css"
 
  
 function home() {
+    const githubLink = "https://github.com/Lusa-mata"; // Replace with your GitHub profile link
+    const linkedinLink = "https://www.linkedin.com/in/lusaduma-ok-mata/"; // Replace with your LinkedIn profile link
+
+
+
   return (
     <div>
       <div className="center">
@@ -22,11 +27,27 @@ function home() {
           <br />
           <br />
           
-          <img
-        src="/images/github icon.png"
-        alt="GitHub Icon"
-        style={{ width: '100px', height: '100px' }}
-        />
+          <div>
+            <a href={githubLink} target="_blank" rel="noopener noreferrer">
+              <img
+                src="/images/github icon.png"
+                alt="GitHub Icon"
+                style={{ width: '100px', height: '100px' }}
+              />
+            </a>
+          </div>
+
+          <br></br>
+          <div>
+            <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
+              <img
+                src="/images/linkedin icon.png"
+                alt="GitHub Icon"
+                style={{ width: '130px', height: '130px' }}
+              />
+            </a>
+          </div>
+          
           
           <br />
           <br />
