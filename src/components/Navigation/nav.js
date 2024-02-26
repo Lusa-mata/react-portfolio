@@ -27,7 +27,7 @@ function Nav() {
 
 
 
-
+        {/*Desktop view*/}
         <ul class="menu" id="menu">
         <li><Link to="lusaduma-mata" spy smooth offset={-70} duration={500} onClick={closeMenu}>
                 Home </Link>
@@ -62,7 +62,7 @@ function Nav() {
 
 
 
-        {/* Conditionally render the menu items */}
+        {/* Mobile view */}
         {isMenuOpen && (
           <ul className={`menu-items ${isMenuOpen ? 'open' : ''}`}>
             <li>
