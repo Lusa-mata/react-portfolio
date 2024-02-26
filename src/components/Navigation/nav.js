@@ -25,6 +25,43 @@ function Nav() {
           <div className="bar"></div>
         </div>
 
+
+
+
+        <ul class="menu" id="menu">
+        <li><Link to="lusaduma-mata" spy smooth offset={-70} duration={500} onClick={closeMenu}>
+                Home </Link>
+        </li>
+            
+        <li>
+            <Link to="about" spy smooth offset={-70} duration={500} onClick={closeMenu}>
+                About Me
+            </Link>
+        </li>
+
+        <li>
+              <Link to="work" spy smooth offset={-70} duration={500} onClick={closeMenu}>
+                Work Experience
+              </Link>
+            </li>
+            
+            <li>
+              <Link to="projects" spy smooth offset={-70} duration={500} onClick={closeMenu}>
+                Projects
+              </Link>
+            </li>
+            
+            <li>
+              <Link to="contact" spy smooth offset={-70} duration={500} onClick={closeMenu}>
+                Contact Me
+              </Link>
+            </li>  
+        </ul>
+
+
+
+
+
         {/* Conditionally render the menu items */}
         {isMenuOpen && (
           <ul className={`menu-items ${isMenuOpen ? 'open' : ''}`}>
