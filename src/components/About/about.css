@@ -17,7 +17,16 @@
     margin: auto;
     margin-top: 50px;
     font-size: 16px;
-    
+    animation: slideInLeft 1s ease;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
   }
   
   /* card for image in overview */
@@ -45,7 +54,16 @@
   border-radius: 30px;
   margin: auto;
   margin-top: 50px;
-  
+  animation: slideInRight 1s ease 0.5s;
+  }
+
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
   }
   
   .card-Skills:hover{
