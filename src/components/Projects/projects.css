@@ -160,6 +160,12 @@
     margin-top: 40px;
   }
   
+  .card-more:hover {
+    box-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 15px #ffffff,
+                0 0 20px #ffffff;
+  }
   
   #checkbox {
     display: none;
