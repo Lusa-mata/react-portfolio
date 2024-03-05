@@ -113,5 +113,33 @@
       .menu a {
           color: #fff;
       }
+
+      .menu-items {
+        list-style: none;
+        padding: 0;
+      }
+    
+      .menu-items li {
+        margin: 0;
+        padding: 15px 20px;
+        text-align: center;
+      }
+    
+      .menu-items a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: color 0.3s;
+      }
+    
+      .menu-items a:hover {
+        color: #fff;
+        border-radius: 30px;
+        outline: 3px solid rgb(60, 210, 255);
+        outline-offset: -3px;
+      }
+
     }
   
