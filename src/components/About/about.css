@@ -126,7 +126,7 @@
   .card-Overview img {
       width: 45%; /* Set the image width to 100% for responsiveness */
       height: 400px; /* Maintain the aspect ratio */
-      margin-top: 20px;
+      margin-top: 70px;
       order: -1; /* Move the image above the paragraph */
   }
 
