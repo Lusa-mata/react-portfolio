@@ -54,10 +54,14 @@
 
 
   .menu a:hover{
-    outline: 3px solid rgb(60, 210, 255);
-    outline-offset: -3px; /* offset for the outline */
+    box-shadow: 0 0 5px rgb(60, 210, 255),
+                0 0 10px rgb(60, 210, 255),
+                0 0 15px rgb(60, 210, 255),
+                0 0 20px rgb(60, 210, 255);
     color: #fff; /*text color on hover*/
     border-radius: 30px;
+    outline: 3px solid rgb(60, 210, 255);
+    outline-offset: -3px; /* offset for the outline */
   }  
 
   
